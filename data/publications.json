@@ -1,0 +1,2398 @@
+[
+	{
+		"id": "http://zotero.org/users/6833030/items/H72D83GQ",
+		"type": "article-journal",
+		"abstract": "SARS-CoV-2 has intricate mechanisms for initiating infection, immune evasion/suppression and replication that depend on the structure and dynamics of its constituent proteins. Many protein structures have been solved, but far less is known about their relevant conformational changes. To address this challenge, over a million citizen scientists banded together through the Folding@home distributed computing project to create the first exascale computer and simulate 0.1 seconds of the viral proteome. Our adaptive sampling simulations predict dramatic opening of the apo spike complex, far beyond that seen experimentally, explaining and predicting the existence of ‘cryptic’ epitopes. Different spike variants modulate the probabilities of open versus closed structures, balancing receptor binding and immune evasion. We also discover dramatic conformational changes across the proteome, which reveal over 50 ‘cryptic’ pockets that expand targeting options for the design of antivirals. All data and models are freely available online, providing a quantitative structural atlas.",
+		"container-title": "Nature Chemistry",
+		"DOI": "10.1038/s41557-021-00707-0",
+		"ISSN": "1755-4349",
+		"language": "en",
+		"license": "2021 The Author(s), under exclusive licence to Springer Nature Limited",
+		"page": "1-9",
+		"publisher": "Nature Publishing Group",
+		"source": "www.nature.com",
+		"title": "SARS-CoV-2 simulations go exascale to predict dramatic spike opening and cryptic pockets across the proteome",
+		"URL": "https://www.nature.com/articles/s41557-021-00707-0",
+		"author": [
+			{
+				"family": "Zimmerman",
+				"given": "Maxwell I."
+			},
+			{
+				"family": "Porter",
+				"given": "Justin R."
+			},
+			{
+				"family": "Ward",
+				"given": "Michael D."
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Vithani",
+				"given": "Neha"
+			},
+			{
+				"family": "Meller",
+				"given": "Artur"
+			},
+			{
+				"family": "Mallimadugula",
+				"given": "Upasana L."
+			},
+			{
+				"family": "Kuhn",
+				"given": "Catherine E."
+			},
+			{
+				"family": "Borowsky",
+				"given": "Jonathan H."
+			},
+			{
+				"family": "Wiewiora",
+				"given": "Rafal P."
+			},
+			{
+				"family": "Hurley",
+				"given": "Matthew F. D."
+			},
+			{
+				"family": "Harbison",
+				"given": "Aoife M."
+			},
+			{
+				"family": "Fogarty",
+				"given": "Carl A."
+			},
+			{
+				"family": "Coffland",
+				"given": "Joseph E."
+			},
+			{
+				"family": "Fadda",
+				"given": "Elisa"
+			},
+			{
+				"family": "Voelz",
+				"given": "Vincent A."
+			},
+			{
+				"family": "Chodera",
+				"given": "John D."
+			},
+			{
+				"family": "Bowman",
+				"given": "Gregory R."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					27
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					24
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/FEB5RKE8",
+		"type": "article-journal",
+		"abstract": "Understanding the functional role of protein-excited states has important implications in protein design and drug discovery. However, because these states are difficult to find and study, it is still unclear if excited states simply result from thermal fluctuations and generally detract from function or if these states can actually enhance protein function. To investigate this question, we consider excited states in β-lactamases and particularly a subset of states containing a cryptic pocket which forms under the Ω-loop. Given the known importance of the Ω-loop and the presence of this pocket in at least two homologs, we hypothesized that these excited states enhance enzyme activity. Using thiol-labeling assays to probe Ω-loop pocket dynamics and kinetic assays to probe activity, we find that while this pocket is not completely conserved across β-lactamase homologs, those with the Ω-loop pocket have a higher activity against the substrate benzylpenicillin. We also find that this is true for TEM β-lactamase variants with greater open Ω-loop pocket populations. We further investigate the open population using a combination of NMR chemical exchange saturation transfer experiments and molecular dynamics simulations. To test our understanding of the Ω-loop pocket’s functional role, we designed mutations to enhance/suppress pocket opening and observed that benzylpenicillin activity is proportional to the probability of pocket opening in our designed variants. The work described here suggests that excited states containing cryptic pockets can be advantageous for function and may be favored by natural selection, increasing the potential utility of such cryptic pockets as drug targets.",
+		"container-title": "Proceedings of the National Academy of Sciences",
+		"DOI": "10.1073/pnas.2106473118",
+		"ISSN": "0027-8424, 1091-6490",
+		"issue": "47",
+		"journalAbbreviation": "PNAS",
+		"language": "en",
+		"license": "Copyright © 2021 the Author(s). Published by PNAS.. https://creativecommons.org/licenses/by-nc-nd/4.0/This open access article is distributed under Creative Commons Attribution-NonCommercial-NoDerivatives License 4.0 (CC BY-NC-ND).",
+		"PMID": "34799442",
+		"publisher": "National Academy of Sciences",
+		"section": "Biological Sciences",
+		"source": "www.pnas.org",
+		"title": "Opening of a cryptic pocket in β-lactamase increases penicillinase activity",
+		"URL": "https://www.pnas.org/content/118/47/e2106473118",
+		"volume": "118",
+		"author": [
+			{
+				"family": "Knoverek",
+				"given": "Catherine R."
+			},
+			{
+				"family": "Mallimadugula",
+				"given": "Upasana L."
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Rennella",
+				"given": "Enrico"
+			},
+			{
+				"family": "Frederick",
+				"given": "Thomas E."
+			},
+			{
+				"family": "Yuwen",
+				"given": "Tairan"
+			},
+			{
+				"family": "Raavicharla",
+				"given": "Shreya"
+			},
+			{
+				"family": "Kay",
+				"given": "Lewis E."
+			},
+			{
+				"family": "Bowman",
+				"given": "Gregory R."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					11,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					11,
+					23
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/THF9IP7V",
+		"type": "article-journal",
+		"abstract": "Chromatin-binding proteins are critical regulators of cell state in haematopoiesis1,2. Acute leukaemias driven by rearrangement of the mixed lineage leukaemia 1 gene (KMT2Ar) or mutation of the nucleophosmin gene (NPM1) require the chromatin adapter protein menin, encoded by the MEN1 gene, to sustain aberrant leukaemogenic gene expression programs3–5. In a phase 1 first-in-human clinical trial, the menin inhibitor revumenib, which is designed to disrupt the menin–MLL1 interaction, induced clinical responses in patients with leukaemia with KMT2Ar or mutated NPM1 (ref. 6). Here we identified somatic mutations in MEN1 at the revumenib–menin interface in patients with acquired resistance to menin inhibition. Consistent with the genetic data in patients, inhibitor–menin interface mutations represent a conserved mechanism of therapeutic resistance in xenograft models and in an unbiased base-editor screen. These mutants attenuate drug–target binding by generating structural perturbations that impact small-molecule binding but not the interaction with the natural ligand MLL1, and prevent inhibitor-induced eviction of menin and MLL1 from chromatin. To our knowledge, this study is the first to demonstrate that a chromatin-targeting therapeutic drug exerts sufficient selection pressure in patients to drive the evolution of escape mutants that lead to sustained chromatin occupancy, suggesting a common mechanism of therapeutic resistance.",
+		"container-title": "Nature",
+		"DOI": "10.1038/s41586-023-05755-9",
+		"ISSN": "1476-4687",
+		"language": "en",
+		"license": "2023 The Author(s), under exclusive licence to Springer Nature Limited",
+		"page": "1-7",
+		"publisher": "Nature Publishing Group",
+		"source": "www.nature.com",
+		"title": "MEN1 mutations mediate clinical resistance to menin inhibition",
+		"URL": "https://www.nature.com/articles/s41586-023-05755-9",
+		"author": [
+			{
+				"family": "Perner",
+				"given": "Florian"
+			},
+			{
+				"family": "Stein",
+				"given": "Eytan M."
+			},
+			{
+				"family": "Wenge",
+				"given": "Daniela V."
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Kim",
+				"given": "Jeonghyeon"
+			},
+			{
+				"family": "Apazidis",
+				"given": "Athina"
+			},
+			{
+				"family": "Rahnamoun",
+				"given": "Homa"
+			},
+			{
+				"family": "Anand",
+				"given": "Disha"
+			},
+			{
+				"family": "Marinaccio",
+				"given": "Christian"
+			},
+			{
+				"family": "Hatton",
+				"given": "Charlie"
+			},
+			{
+				"family": "Wen",
+				"given": "Yanhe"
+			},
+			{
+				"family": "Stone",
+				"given": "Richard M."
+			},
+			{
+				"family": "Schaller",
+				"given": "David"
+			},
+			{
+				"family": "Mowla",
+				"given": "Shoron"
+			},
+			{
+				"family": "Xiao",
+				"given": "Wenbin"
+			},
+			{
+				"family": "Gamlen",
+				"given": "Holly A."
+			},
+			{
+				"family": "Stonestrom",
+				"given": "Aaron J."
+			},
+			{
+				"family": "Persaud",
+				"given": "Sonali"
+			},
+			{
+				"family": "Ener",
+				"given": "Elizabeth"
+			},
+			{
+				"family": "Cutler",
+				"given": "Jevon A."
+			},
+			{
+				"family": "Doench",
+				"given": "John G."
+			},
+			{
+				"family": "McGeehan",
+				"given": "Gerard M."
+			},
+			{
+				"family": "Volkamer",
+				"given": "Andrea"
+			},
+			{
+				"family": "Chodera",
+				"given": "John D."
+			},
+			{
+				"family": "Nowak",
+				"given": "Radosław P."
+			},
+			{
+				"family": "Fischer",
+				"given": "Eric S."
+			},
+			{
+				"family": "Levine",
+				"given": "Ross L."
+			},
+			{
+				"family": "Armstrong",
+				"given": "Scott A."
+			},
+			{
+				"family": "Cai",
+				"given": "Sheng F."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					3,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					3,
+					15
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/W2JSCZ3A",
+		"type": "article-journal",
+		"abstract": "We report the results of the COVID Moonshot, a fully open-science, crowdsourced, and structure-enabled drug discovery campaign targeting the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) main protease. We discovered a noncovalent, nonpeptidic inhibitor scaffold with lead-like properties that is differentiated from current main protease inhibitors. Our approach leveraged crowdsourcing, machine learning, exascale molecular simulations, and high-throughput structural biology and chemistry. We generated a detailed map of the structural plasticity of the SARS-CoV-2 main protease, extensive structure-activity relationships for multiple chemotypes, and a wealth of biochemical activity data. All compound designs (>18,000 designs), crystallographic data (>490 ligand-bound x-ray structures), assay data (>10,000 measurements), and synthesized molecules (>2400 compounds) for this campaign were shared rapidly and openly, creating a rich, open, and intellectual property–free knowledge base for future anticoronavirus drug discovery.",
+		"container-title": "Science",
+		"DOI": "10.1126/science.abo7201",
+		"issue": "6671",
+		"page": "eabo7201",
+		"publisher": "American Association for the Advancement of Science",
+		"source": "science.org (Atypon)",
+		"title": "Open science discovery of potent noncovalent SARS-CoV-2 main protease inhibitors",
+		"URL": "https://www.science.org/doi/full/10.1126/science.abo7201",
+		"volume": "382",
+		"author": [
+			{
+				"family": "Boby",
+				"given": "Melissa L."
+			},
+			{
+				"family": "Fearon",
+				"given": "Daren"
+			},
+			{
+				"family": "Ferla",
+				"given": "Matteo"
+			},
+			{
+				"family": "Filep",
+				"given": "Mihajlo"
+			},
+			{
+				"family": "Koekemoer",
+				"given": "Lizbé"
+			},
+			{
+				"family": "Robinson",
+				"given": "Matthew C."
+			},
+			{
+				"literal": "The COVID Moonshot Consortium"
+			},
+			{
+				"family": "Chodera",
+				"given": "John D."
+			},
+			{
+				"family": "Lee",
+				"given": "Alpha A."
+			},
+			{
+				"family": "London",
+				"given": "Nir"
+			},
+			{
+				"family": "Delft",
+				"given": "Annette",
+				"non-dropping-particle": "von"
+			},
+			{
+				"family": "Delft",
+				"given": "Frank",
+				"non-dropping-particle": "von"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					11,
+					9
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					11,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/R6BEIWKG",
+		"type": "article-journal",
+		"abstract": "Machine learning plays an important and growing role in molecular simulation. The newest version of the OpenMM molecular dynamics toolkit introduces new features to support the use of machine learning potentials. Arbitrary PyTorch models can be added to a simulation and used to compute forces and energy. A higher-level interface allows users to easily model their molecules of interest with general purpose, pretrained potential functions. A collection of optimized CUDA kernels and custom PyTorch operations greatly improves the speed of simulations. We demonstrate these features in simulations of cyclin-dependent kinase 8 (CDK8) and the green fluorescent protein chromophore in water. Taken together, these features make it practical to use machine learning to improve the accuracy of simulations with only a modest increase in cost.",
+		"container-title": "The Journal of Physical Chemistry B",
+		"DOI": "10.1021/acs.jpcb.3c06662",
+		"ISSN": "1520-6106",
+		"issue": "1",
+		"journalAbbreviation": "J. Phys. Chem. B",
+		"page": "109-116",
+		"publisher": "American Chemical Society",
+		"source": "ACS Publications",
+		"title": "OpenMM 8: Molecular Dynamics Simulation with Machine Learning Potentials",
+		"title-short": "OpenMM 8",
+		"URL": "https://doi.org/10.1021/acs.jpcb.3c06662",
+		"volume": "128",
+		"author": [
+			{
+				"family": "Eastman",
+				"given": "Peter"
+			},
+			{
+				"family": "Galvelis",
+				"given": "Raimondas"
+			},
+			{
+				"family": "Peláez",
+				"given": "Raúl P."
+			},
+			{
+				"family": "Abreu",
+				"given": "Charlles R. A."
+			},
+			{
+				"family": "Farr",
+				"given": "Stephen E."
+			},
+			{
+				"family": "Gallicchio",
+				"given": "Emilio"
+			},
+			{
+				"family": "Gorenko",
+				"given": "Anton"
+			},
+			{
+				"family": "Henry",
+				"given": "Michael M."
+			},
+			{
+				"family": "Hu",
+				"given": "Frank"
+			},
+			{
+				"family": "Huang",
+				"given": "Jing"
+			},
+			{
+				"family": "Krämer",
+				"given": "Andreas"
+			},
+			{
+				"family": "Michel",
+				"given": "Julien"
+			},
+			{
+				"family": "Mitchell",
+				"given": "Joshua A."
+			},
+			{
+				"family": "Pande",
+				"given": "Vijay S."
+			},
+			{
+				"family": "Rodrigues",
+				"given": "João PGLM"
+			},
+			{
+				"family": "Rodriguez-Guerra",
+				"given": "Jaime"
+			},
+			{
+				"family": "Simmonett",
+				"given": "Andrew C."
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Swails",
+				"given": "Jason"
+			},
+			{
+				"family": "Turner",
+				"given": "Philip"
+			},
+			{
+				"family": "Wang",
+				"given": "Yuanqing"
+			},
+			{
+				"family": "Zhang",
+				"given": "Ivy"
+			},
+			{
+				"family": "Chodera",
+				"given": "John D."
+			},
+			{
+				"family": "De Fabritiis",
+				"given": "Gianni"
+			},
+			{
+				"family": "Markland",
+				"given": "Thomas E."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					4,
+					14
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					1,
+					11
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/6QA3BSN3",
+		"type": "article-journal",
+		"abstract": "Protein-protein and protein-nucleic acid interactions are often considered difficult drug targets because the surfaces involved lack obvious druggable pockets. Cryptic pockets could present opportunities for targeting these interactions, but identifying and exploiting these pockets remains challenging. Here, we apply a general pipeline for identifying cryptic pockets to the interferon inhibitory domain (IID) of Ebola virus viral protein 35 (VP35). VP35 plays multiple essential roles in Ebola’s replication cycle but lacks pockets that present obvious utility for drug design. Using adaptive sampling simulations and machine learning algorithms, we predict VP35 harbors a cryptic pocket that is allosterically coupled to a key dsRNA-binding interface. Thiol labeling experiments corroborate the predicted pocket and mutating the predicted allosteric network supports our model of allostery. Finally, covalent modifications that mimic drug binding allosterically disrupt dsRNA binding that is essential for immune evasion. Based on these results, we expect this pipeline will be applicable to other proteins.",
+		"container-title": "Nature Communications",
+		"DOI": "10.1038/s41467-022-29927-9",
+		"ISSN": "2041-1723",
+		"issue": "1",
+		"journalAbbreviation": "Nat Commun",
+		"language": "en",
+		"license": "2022 The Author(s)",
+		"page": "2269",
+		"publisher": "Nature Publishing Group",
+		"source": "www.nature.com",
+		"title": "A cryptic pocket in Ebola VP35 allosterically controls RNA binding",
+		"URL": "https://www.nature.com/articles/s41467-022-29927-9",
+		"volume": "13",
+		"author": [
+			{
+				"family": "Cruz",
+				"given": "Matthew A."
+			},
+			{
+				"family": "Frederick",
+				"given": "Thomas E."
+			},
+			{
+				"family": "Mallimadugula",
+				"given": "Upasana L."
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Vithani",
+				"given": "Neha"
+			},
+			{
+				"family": "Zimmerman",
+				"given": "Maxwell I."
+			},
+			{
+				"family": "Porter",
+				"given": "Justin R."
+			},
+			{
+				"family": "Moeder",
+				"given": "Katelyn E."
+			},
+			{
+				"family": "Amarasinghe",
+				"given": "Gaya K."
+			},
+			{
+				"family": "Bowman",
+				"given": "Gregory R."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					8,
+					7
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					27
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/CYT4MCSS",
+		"type": "article-journal",
+		"abstract": "The SARS-CoV-2 nucleocapsid (N) protein is an abundant RNA-binding protein critical for viral genome packaging, yet the molecular details that underlie this process are poorly understood. Here we combine single-molecule spectroscopy with all-atom simulations to uncover the molecular details that contribute to N protein function. N protein contains three dynamic disordered regions that house putative transiently-helical binding motifs. The two folded domains interact minimally such that full-length N protein is a flexible and multivalent RNA-binding protein. N protein also undergoes liquid-liquid phase separation when mixed with RNA, and polymer theory predicts that the same multivalent interactions that drive phase separation also engender RNA compaction. We offer a simple symmetry-breaking model that provides a plausible route through which single-genome condensation preferentially occurs over phase separation, suggesting that phase separation offers a convenient macroscopic readout of a key nanoscopic interaction.",
+		"container-title": "Nature Communications",
+		"DOI": "10.1038/s41467-021-21953-3",
+		"ISSN": "2041-1723",
+		"issue": "1",
+		"journalAbbreviation": "Nat Commun",
+		"language": "en",
+		"license": "2021 The Author(s)",
+		"page": "1936",
+		"publisher": "Nature Publishing Group",
+		"source": "www.nature.com",
+		"title": "The SARS-CoV-2 nucleocapsid protein is dynamic, disordered, and phase separates with RNA",
+		"URL": "https://www.nature.com/articles/s41467-021-21953-3",
+		"volume": "12",
+		"author": [
+			{
+				"family": "Cubuk",
+				"given": "Jasmine"
+			},
+			{
+				"family": "Alston",
+				"given": "Jhullian J."
+			},
+			{
+				"family": "Incicco",
+				"given": "J. Jeremías"
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Stuchell-Brereton",
+				"given": "Melissa D."
+			},
+			{
+				"family": "Ward",
+				"given": "Michael D."
+			},
+			{
+				"family": "Zimmerman",
+				"given": "Maxwell I."
+			},
+			{
+				"family": "Vithani",
+				"given": "Neha"
+			},
+			{
+				"family": "Griffith",
+				"given": "Daniel"
+			},
+			{
+				"family": "Wagoner",
+				"given": "Jason A."
+			},
+			{
+				"family": "Bowman",
+				"given": "Gregory R."
+			},
+			{
+				"family": "Hall",
+				"given": "Kathleen B."
+			},
+			{
+				"family": "Soranno",
+				"given": "Andrea"
+			},
+			{
+				"family": "Holehouse",
+				"given": "Alex S."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					9,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					3,
+					29
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/XIYJ73XD",
+		"type": "article-journal",
+		"container-title": "Biophysical Journal",
+		"DOI": "10.1016/j.bpj.2021.03.024",
+		"ISSN": "0006-3495",
+		"issue": "14",
+		"journalAbbreviation": "Biophysical Journal",
+		"language": "English",
+		"page": "2880-2889",
+		"PMID": "33794150",
+		"publisher": "Elsevier",
+		"source": "www.cell.com",
+		"title": "SARS-CoV-2 Nsp16 activation mechanism and a cryptic pocket with pan-coronavirus antiviral potential",
+		"URL": "https://www.cell.com/biophysj/abstract/S0006-3495(21)00254-X",
+		"volume": "120",
+		"author": [
+			{
+				"family": "Vithani",
+				"given": "Neha"
+			},
+			{
+				"family": "Ward",
+				"given": "Michael D."
+			},
+			{
+				"family": "Zimmerman",
+				"given": "Maxwell I."
+			},
+			{
+				"family": "Novak",
+				"given": "Borna"
+			},
+			{
+				"family": "Borowsky",
+				"given": "Jonathan H."
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Bowman",
+				"given": "Gregory R."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					9,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					7,
+					20
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/F8MIRVP7",
+		"type": "article-journal",
+		"abstract": "Inhibitors of heterotrimeric G proteins are being developed as therapeutic agents. Epitomizing this approach are YM-254890 (YM) and FR900359 (FR), which are efficacious in models of thrombosis, hypertension, obesity, asthma, uveal melanoma, and pain, and under investigation as an FR-antibody conjugate in uveal melanoma clinical trials. YM/FR inhibits the Gq/11/14 subfamily by interfering with GDP (guanosine diphosphate) release, but by an unknown biophysical mechanism. Here, we show that YM inhibits GDP release by stabilizing closure between the Ras-like and α-helical domains of a Gα subunit. Nucleotide-free Gα adopts an ensemble of open and closed configurations, as indicated by single-molecule Förster resonance energy transfer and molecular dynamics simulations, whereas GDP and GTPγS (guanosine 5’-O-[gamma-thio]triphosphate) stabilize distinct closed configurations. YM stabilizes closure in the presence or absence of GDP without requiring an intact interdomain interface. All three classes of mammalian Gα subunits that are insensitive to YM/FR possess homologous but degenerate YM/FR binding sites, yet can be inhibited upon transplantation of the YM/FR binding site of Gq. Novel YM/FR analogs tailored to each class of G protein will provide powerful new tools for therapeutic investigation.",
+		"container-title": "Proceedings of the National Academy of Sciences",
+		"DOI": "10.1073/pnas.2311711121",
+		"issue": "36",
+		"page": "e2311711121",
+		"publisher": "Proceedings of the National Academy of Sciences",
+		"source": "pnas.org (Atypon)",
+		"title": "Stabilization of interdomain closure by a G protein inhibitor",
+		"URL": "https://www.pnas.org/doi/abs/10.1073/pnas.2311711121",
+		"volume": "121",
+		"author": [
+			{
+				"family": "Todd",
+				"given": "Tyson D."
+			},
+			{
+				"family": "Vithani",
+				"given": "Neha"
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Bowman",
+				"given": "Gregory R."
+			},
+			{
+				"family": "Blumer",
+				"given": "Kendall J."
+			},
+			{
+				"family": "Soranno",
+				"given": "Andrea"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					9,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					9,
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/FBYSW4YL",
+		"type": "article-journal",
+		"abstract": "Understanding how signaling proteins like G proteins are allosterically activated is a long-standing challenge with significant biological and medical implications. Because it is difficult to directly observe such dynamic processes, much of our understanding is based on inferences from a limited number of static snapshots of relevant protein structures, mutagenesis data, and patterns of sequence conservation. Here, we use computer simulations to directly interrogate allosteric coupling in six G protein α-subunit isoforms covering all four G protein families. To analyze this data, we introduce automated methods for inferring allosteric networks from simulation data and assessing how allostery is conserved or diverged among related protein isoforms. We find that the allosteric networks in these six G protein α subunits are largely conserved and consist of two pathways, which we call pathway-I and pathway-II. This analysis predicts that pathway-I is generally dominant over pathway-II, which we experimentally corroborate by showing that mutations to pathway-I perturb nucleotide exchange more than mutations to pathway-II. In the future, insights into unique elements of each G protein family could inform the design of isoform-specific drugs. More broadly, our tools should also be useful for studying allostery in other proteins and assessing the extent to which this allostery is conserved in related proteins.",
+		"container-title": "The Journal of Physical Chemistry B",
+		"DOI": "10.1021/acs.jpcb.3c07028",
+		"ISSN": "1520-6106",
+		"issue": "15",
+		"journalAbbreviation": "J. Phys. Chem. B",
+		"page": "3554-3562",
+		"publisher": "American Chemical Society",
+		"source": "ACS Publications",
+		"title": "G Protein Activation Occurs via a Largely Universal Mechanism",
+		"URL": "https://doi.org/10.1021/acs.jpcb.3c07028",
+		"volume": "128",
+		"author": [
+			{
+				"family": "Vithani",
+				"given": "Neha"
+			},
+			{
+				"family": "Todd",
+				"given": "Tyson D."
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Trent",
+				"given": "Tony"
+			},
+			{
+				"family": "Blumer",
+				"given": "Kendall J."
+			},
+			{
+				"family": "Bowman",
+				"given": "Gregory R."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					9,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					4,
+					18
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/3NLBXKX2",
+		"type": "article",
+		"abstract": "Protein conformational landscapes contain the functionally relevant information useful for understanding biological processes. Mapping out conformational landscapes provides valuable insights into protein behaviors and biological phenomena, and has relevance to therapeutic design. While experimental structural biology (X-ray, Cryo-EM, NMR) can provide high resolution structures, they struggle to provide information about the full conformational landscapes of biomolecules. Molecular dynamics (MD) simulations are a powerful tool for exploring these landscapes at atomic-scale resolution. However, inferring functionally relevant information, such as the full conformational pathway of long-timescale processes, the impact of mutations on binding, or allosteric coupling between residues across long distances, requires too extensive sampling that a single MD simulation may not achieve. This sampling limitation can be circumvented by generating datasets of parallel molecular simulations, a powerful approach to sample long-timescale events and study complex biological phenomena. Here, we discuss recent advances and present a practical guide to generating massively parallel molecular dynamics datasets. We start by detailing the practical considerations prior to generating a dataset, spanning from storage needs to the timescales addressed by the dataset, as well as modern simulation engines. Subsequently, we discuss how to analyze thee datasets to build unified models of conformational space, including future insights to be made possible by distributed simulation architectures.",
+		"DOI": "10.26434/chemrxiv-2024-vwpww",
+		"language": "en",
+		"publisher": "ChemRxiv",
+		"source": "Cambridge Engage Preprints",
+		"title": "Running and analyzing massively parallel molecular simulations",
+		"URL": "https://chemrxiv.org/engage/chemrxiv/article-details/67099e0712ff75c3a12a09a2",
+		"author": [
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Hanson",
+				"given": "Sonya"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					10,
+					26
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					10,
+					15
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/VI7X6X4Q",
+		"type": "article-journal",
+		"abstract": "Kinase inhibitors are successful therapeutics in the treatment of cancers and autoimmune diseases and are useful tools in biomedical research. However, the high sequence and structural conservation of the catalytic kinase domain complicate the development of selective kinase inhibitors. Inhibition of off-target kinases makes it difficult to study the mechanism of inhibitors in biological systems. Current efforts focus on the development of inhibitors with improved selectivity. Here, we present an alternative solution to this problem by combining inhibitors with divergent off-target effects. We develop a multicompound–multitarget scoring (MMS) method that combines inhibitors to maximize target inhibition and to minimize off-target inhibition. Additionally, this framework enables optimization of inhibitor combinations for multiple on-targets. Using MMS with published kinase inhibitor datasets we determine potent inhibitor combinations for target kinases with better selectivity than the most selective single inhibitor and validate the predicted effect and selectivity of inhibitor combinations using in vitro and in cellulo techniques. MMS greatly enhances selectivity in rational multitargeting applications. The MMS framework is generalizable to other non-kinase biological targets where compound selectivity is a challenge and diverse compound libraries are available.",
+		"container-title": "eLife",
+		"DOI": "10.7554/eLife.86189",
+		"ISSN": "2050-084X",
+		"page": "e86189",
+		"publisher": "eLife Sciences Publications, Ltd",
+		"source": "eLife",
+		"title": "Death by a thousand cuts through kinase inhibitor combinations that maximize selectivity and enable rational multitargeting",
+		"URL": "https://doi.org/10.7554/eLife.86189",
+		"volume": "12",
+		"author": [
+			{
+				"family": "Outhwaite",
+				"given": "Ian R"
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Berger",
+				"given": "Benedict-Tilman"
+			},
+			{
+				"family": "Knapp",
+				"given": "Stefan"
+			},
+			{
+				"family": "Chodera",
+				"given": "John D"
+			},
+			{
+				"family": "Seeliger",
+				"given": "Markus A"
+			}
+		],
+		"editor": [
+			{
+				"family": "Yang",
+				"given": "Yongliang"
+			},
+			{
+				"family": "Andreotti",
+				"given": "Amy H"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					12,
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/LYT284KI",
+		"type": "article-journal",
+		"abstract": "Relative alchemical binding free energy calculations are routinely used in drug discovery projects to optimize the affinity of small molecules for their drug targets. Alchemical methods can also be used to estimate the impact of amino acid mutations on protein:protein binding affinities, but these calculations can involve sampling challenges due to the complex networks of protein and water interactions frequently present in protein:protein interfaces. We investigate these challenges by extending a graphics processing unit (GPU)-accelerated open-source relative free energy calculation package (Perses) to predict the impact of amino acid mutations on protein:protein binding. Using the well-characterized model system barnase:barstar, we describe analyses for identifying and characterizing sampling problems in protein:protein relative free energy calculations. We find that mutations with sampling problems often involve charge-changes, and inadequate sampling can be attributed to slow degrees of freedom that are mutation-specific. We also explore the accuracy and efficiency of current state-of-the-art approaches─alchemical replica exchange and alchemical replica exchange with solute tempering─for overcoming relevant sampling problems. By employing sufficiently long simulations, we achieve accurate predictions (RMSE 1.61, 95% CI: [1.12, 2.11] kcal/mol), with 86% of estimates within 1 kcal/mol of the experimentally determined relative binding free energies and 100% of predictions correctly classifying the sign of the changes in binding free energies. Ultimately, we provide a model workflow for applying protein mutation free energy calculations to protein:protein complexes, and importantly, catalog the sampling challenges associated with these types of alchemical transformations. Our free open-source package (Perses) is based on OpenMM and is available at https://github.com/choderalab/perses.",
+		"container-title": "Journal of Chemical Theory and Computation",
+		"DOI": "10.1021/acs.jctc.3c00333",
+		"ISSN": "1549-9618",
+		"issue": "15",
+		"journalAbbreviation": "J. Chem. Theory Comput.",
+		"page": "4863-4882",
+		"publisher": "American Chemical Society",
+		"source": "ACS Publications",
+		"title": "Identifying and Overcoming the Sampling Challenges in Relative Binding Free Energy Calculations of a Model Protein:Protein Complex",
+		"title-short": "Identifying and Overcoming the Sampling Challenges in Relative Binding Free Energy Calculations of a Model Protein",
+		"URL": "https://doi.org/10.1021/acs.jctc.3c00333",
+		"volume": "19",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Ivy"
+			},
+			{
+				"family": "Rufa",
+				"given": "Dominic A."
+			},
+			{
+				"family": "Pulido",
+				"given": "Iván"
+			},
+			{
+				"family": "Henry",
+				"given": "Michael M."
+			},
+			{
+				"family": "Rosen",
+				"given": "Laura E."
+			},
+			{
+				"family": "Hauser",
+				"given": "Kevin"
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Chodera",
+				"given": "John D."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/M6GNH9KF",
+		"type": "article-journal",
+		"abstract": "<p>CTX-M β-lactamases are widespread in Gram-negative bacterial pathogens and provide resistance to the cephalosporin cefotaxime but not to the related antibiotic ceftazidime. Nevertheless, variants have emerged that confer resistance to ceftazidime. Two natural mutations, causing P167S and D240G substitutions in the CTX-M enzyme, result in 10-fold increased hydrolysis of ceftazidime. Although the combination of these mutations would be predicted to increase ceftazidime hydrolysis further, the P167S/D240G combination has not been observed in a naturally occurring CTX-M variant. Here, using recombinantly expressed enzymes, minimum inhibitory concentration measurements, steady-state enzyme kinetics, and X-ray crystallography, we show that the P167S/D240G double mutant enzyme exhibits decreased ceftazidime hydrolysis, lower thermostability, and decreased protein expression levels compared with each of the single mutants, indicating negative epistasis. X-ray structures of mutant enzymes with covalently trapped ceftazidime suggested that a change of an active-site Ω-loop to an open conformation accommodates ceftazidime leading to enhanced catalysis. 10-μs molecular dynamics simulations further correlated Ω-loop opening with catalytic activity. We observed that the WT and P167S/D240G variant with acylated ceftazidime both favor a closed conformation not conducive for catalysis. In contrast, the single substitutions dramatically increased the probability of open conformations. We conclude that the antagonism is due to restricting the conformation of the Ω-loop. These results reveal the importance of conformational heterogeneity of active-site loops in controlling catalytic activity and directing evolutionary trajectories.</p>",
+		"container-title": "Journal of Biological Chemistry",
+		"DOI": "10.1074/jbc.RA119.012489",
+		"ISSN": "0021-9258, 1083-351X",
+		"issue": "21",
+		"journalAbbreviation": "Journal of Biological Chemistry",
+		"language": "English",
+		"page": "7376-7390",
+		"PMID": "32299911",
+		"publisher": "Elsevier",
+		"source": "www.jbc.org",
+		"title": "Antagonism between substitutions in β-lactamase explains a path not taken in the evolution of bacterial drug resistance",
+		"URL": "https://www.jbc.org/article/S0021-9258(17)50270-7/abstract",
+		"volume": "295",
+		"author": [
+			{
+				"family": "Brown",
+				"given": "Cameron A."
+			},
+			{
+				"family": "Hu",
+				"given": "Liya"
+			},
+			{
+				"family": "Sun",
+				"given": "Zhizeng"
+			},
+			{
+				"family": "Patel",
+				"given": "Meha P."
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Porter",
+				"given": "Justin R."
+			},
+			{
+				"family": "Sankaran",
+				"given": "Banumathi"
+			},
+			{
+				"family": "Prasad",
+				"given": "B. V. Venkataram"
+			},
+			{
+				"family": "Bowman",
+				"given": "Gregory R."
+			},
+			{
+				"family": "Palzkill",
+				"given": "Timothy"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					22
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/L7UBTKMU",
+		"type": "article-journal",
+		"abstract": "Gramicidin A, a topical antibiotic made from alternating L and D amino acids, is characterized by its wide central pore; upon insertion into membranes, it forms channels that disrupts ion gradients. We present helical peptidomimetics with this characteristic wide central pore that have been designed to mimic gramicidin A channels. Mimetics were designed using molecular modeling focused on oligomers of heterochiral dipeptides of proline analogs, in particular azaproline (AzPro). Molecular Dynamics simulations in water confirmed the stability of the designed helices. A sixteen-residue Formyl-(AzPro-Pro)8-NHCH2CH2OH helix was synthesized as well as a full thirty-two residue Cbz-(AzPro-Pro)16-OtBu channels. No liposomal lysis activity was observed suggesting lack of channel formation, possibly due to inappropriate hydrogen-bonding interactions in the membrane. These peptidomimetics also did not hemolyze red blood cells, unlike gramicidin A.",
+		"container-title": "European Journal of Medicinal Chemistry",
+		"DOI": "10.1016/j.ejmech.2018.02.057",
+		"ISSN": "0223-5234",
+		"journalAbbreviation": "European Journal of Medicinal Chemistry",
+		"page": "193-210",
+		"source": "ScienceDirect",
+		"title": "Design, synthesis, and biological evaluation of stable β6.3-Helices: Discovery of non-hemolytic antibacterial peptides",
+		"title-short": "Design, synthesis, and biological evaluation of stable β6.3-Helices",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0223523418301946",
+		"volume": "149",
+		"author": [
+			{
+				"family": "Reddy",
+				"given": "Damodara N."
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Ho",
+				"given": "Chris M. W."
+			},
+			{
+				"family": "Patel",
+				"given": "Janki"
+			},
+			{
+				"family": "Schlesinger",
+				"given": "Paul"
+			},
+			{
+				"family": "Rodgers",
+				"given": "Stephen"
+			},
+			{
+				"family": "Doctor",
+				"given": "Allan"
+			},
+			{
+				"family": "Marshall",
+				"given": "Garland R."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					4,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/DTTVI4R9",
+		"type": "article-journal",
+		"abstract": "Tabtoxinine-β-lactam (TβL), also known as wildfire toxin, is a time- and ATP-dependent inhibitor of glutamine synthetase produced by plant pathogenic strains of Pseudomonas syringae. Here we demonstrate that recombinant glutamine synthetase from Escherichia coli phosphorylates the C3-hydroxyl group of the TβL 3-(S)-hydroxy-β-lactam (3-HβL) warhead. Phosphorylation of TβL generates a stable, noncovalent enzyme–ADP–inhibitor complex that resembles the glutamine synthetase tetrahedral transition state. The TβL β-lactam ring remains intact during enzyme inhibition, making TβL mechanistically distinct from traditional β-lactam antibiotics such as penicillin. Our findings could enable the design of new 3-HβL transition state inhibitors targeting enzymes in the ATP-dependent carboxylate-amine ligase superfamily with broad therapeutic potential in many disease areas.",
+		"container-title": "Biochemistry",
+		"DOI": "10.1021/acs.biochem.7b00838",
+		"ISSN": "0006-2960",
+		"issue": "1",
+		"journalAbbreviation": "Biochemistry",
+		"page": "117-135",
+		"publisher": "American Chemical Society",
+		"source": "ACS Publications",
+		"title": "Mechanistic Basis for ATP-Dependent Inhibition of Glutamine Synthetase by Tabtoxinine-β-lactam",
+		"URL": "https://doi.org/10.1021/acs.biochem.7b00838",
+		"volume": "57",
+		"author": [
+			{
+				"family": "Patrick",
+				"given": "Garrett J."
+			},
+			{
+				"family": "Fang",
+				"given": "Luting"
+			},
+			{
+				"family": "Schaefer",
+				"given": "Jacob"
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Bowman",
+				"given": "Gregory R."
+			},
+			{
+				"family": "Wencewicz",
+				"given": "Timothy A."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					1,
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/HWG5NVJ5",
+		"type": "article-journal",
+		"abstract": "Objectives: Glucocorticoids (GCs) are used to improve respiratory mechanics in preterm infants despite clinical evidence linking neonatal GC therapy to cerebellar pathology. In developing mouse cerebellum, the GC dexamethasone (DEX) causes rapid GC-induced neural progenitor cell apoptosis (GINA). Focusing on pharmacological neuroprotection strategies, we investigated whether dexmedetomidine (DMT) protects against GINA. Methods: Neonatal mice were pretreated with DMT prior to DEX challenge. Additionally, we tested clonidine and yohimbine in vivo to determine mechanism of DMT neuroprotection. For in vitro studies, cerebellar neural progenitor cells were pretreated with DMT before DEX challenge. Results: In vivo, DMT attenuated GINA at 1 μg/kg and above, p < 0.0001. Clonidine significantly attenuated GINA, p < 0.0001, while yohimbine reversed DMT neuroprotection, p < 0.0001, suggesting DMT neuroprotection is likely mediated via adrenergic signaling. In vitro, DMT neuroprotection was achieved at 10 μM and above, p < 0.001, indicating DMT rescue is cell autonomous. Conclusions: DMT affords dose-dependent neuroprotection from GINA at clinically relevant doses, an effect that is cell autonomous and likely mediated by α2 adrenergic receptor agonism. DMT co-administration with GCs may be an effective strategy to protect the neonatal brain from GINA while retaining the beneficial effects of GCs on respiratory mechanics.",
+		"container-title": "The Journal of Maternal-Fetal & Neonatal Medicine",
+		"DOI": "10.1080/14767058.2016.1241763",
+		"ISSN": "1476-7058",
+		"issue": "18",
+		"note": "_eprint: https://doi.org/10.1080/14767058.2016.1241763",
+		"page": "2156-2162",
+		"PMID": "27677376",
+		"publisher": "Taylor & Francis",
+		"source": "Taylor and Francis+NEJM",
+		"title": "Dexmedetomidine protects against glucocorticoid induced progenitor cell apoptosis in neonatal mouse cerebellum",
+		"URL": "https://doi.org/10.1080/14767058.2016.1241763",
+		"volume": "30",
+		"author": [
+			{
+				"family": "O’Connor",
+				"given": "Shawn David"
+			},
+			{
+				"family": "",
+				"given": "Cabrera ,Omar Hoseá"
+			},
+			{
+				"family": "",
+				"given": "Dougherty ,Joseph D."
+			},
+			{
+				"family": "",
+				"given": "Singh ,Sukrit"
+			},
+			{
+				"family": "",
+				"given": "Swiney ,Brant Stephen"
+			},
+			{
+				"family": "",
+				"given": "Salinas-Contreras ,Patricia"
+			},
+			{
+				"family": "",
+				"given": "Farber ,Nuri Bradford"
+			},
+			{
+				"family": "Noguchi",
+				"given": "Kevin Kiyoshi",
+				"non-dropping-particle": "and"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					9,
+					17
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/JAN9DIGE",
+		"type": "article-journal",
+		"abstract": "Allosteric (i.e., long-range) communication within proteins is crucial for many biological processes, such as the activation of signaling cascades in response to specific stimuli. However, the physical basis for this communication remains unclear. Existing computational methods for identifying allostery focus on the role of concerted structural changes, but recent experimental work demonstrates that disorder is also an important factor. Here, we introduce the Correlation of All Rotameric and Dynamical States (CARDS) framework for quantifying correlations between both the structure and disorder of different regions of a protein. To quantify disorder, we draw inspiration from methods for quantifying “dynamic heterogeneity” from chemical physics to classify segments of a dihedral’s time evolution as being in either ordered or disordered regimes. To demonstrate the utility of this approach, we apply CARDS to the Catabolite Activator Protein (CAP), a transcriptional activator that is regulated by Cyclic Adenosine MonoPhosphate (cAMP) binding. We find that CARDS captures allosteric communication between the two cAMP-Binding Domains (CBDs). Importantly, CARDS reveals that this coupling is dominated by disorder-mediated correlations, consistent with NMR experiments that establish allosteric coupling between the CBDs occurs without a concerted structural change. CARDS also recapitulates an enhanced role for disorder in the communication between the DNA-Binding Domains (DBDs) and CBDs in the S62F variant of CAP. Finally, we demonstrate that using CARDS to find communication hotspots identifies regions of CAP that are in allosteric communication without foreknowledge of their identities. Therefore, we expect CARDS to be of great utility for both understanding and predicting allostery.",
+		"container-title": "Journal of Chemical Theory and Computation",
+		"DOI": "10.1021/acs.jctc.6b01181",
+		"ISSN": "1549-9618",
+		"issue": "4",
+		"journalAbbreviation": "J. Chem. Theory Comput.",
+		"page": "1509-1517",
+		"publisher": "American Chemical Society",
+		"source": "ACS Publications",
+		"title": "Quantifying Allosteric Communication via Both Concerted Structural Changes and Conformational Disorder with CARDS",
+		"URL": "https://doi.org/10.1021/acs.jctc.6b01181",
+		"volume": "13",
+		"author": [
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Bowman",
+				"given": "Gregory R."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					4,
+					11
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/NF3PK4QW",
+		"type": "article-journal",
+		"abstract": "Activation of heterotrimeric G proteins is a key step in many signaling cascades. However, a complete mechanism for this process, which requires allosteric communication between binding sites that are ~30 Å apart, remains elusive. We construct an atomically detailed model of G protein activation by combining three powerful computational methods: metadynamics, Markov state models (MSMs), and CARDS analysis of correlated motions. We uncover a mechanism that is consistent with a wide variety of structural and biochemical data. Surprisingly, the rate-limiting step for GDP release correlates with tilting rather than translation of the GPCR-binding helix 5. β-Strands 1 – 3 and helix 1 emerge as hubs in the allosteric network that links conformational changes in the GPCR-binding site to disordering of the distal nucleotide-binding site and consequent GDP release. Our approach and insights provide foundations for understanding disease-implicated G protein mutants, illuminating slow events in allosteric networks, and examining unbinding processes with slow off-rates.",
+		"container-title": "eLife",
+		"DOI": "10.7554/eLife.38465",
+		"ISSN": "2050-084X",
+		"page": "e38465",
+		"publisher": "eLife Sciences Publications, Ltd",
+		"source": "eLife",
+		"title": "Simulation of spontaneous G protein activation reveals a new intermediate driving GDP unbinding",
+		"URL": "https://doi.org/10.7554/eLife.38465",
+		"volume": "7",
+		"author": [
+			{
+				"family": "Sun",
+				"given": "Xianqiang"
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Blumer",
+				"given": "Kendall J"
+			},
+			{
+				"family": "Bowman",
+				"given": "Gregory R"
+			}
+		],
+		"editor": [
+			{
+				"family": "Faraldo-Gómez",
+				"given": "José D"
+			},
+			{
+				"family": "Kuriyan",
+				"given": "John"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					10,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/T4LQWP89",
+		"type": "article-journal",
+		"abstract": "JIB-04, a specific inhibitor of the O2-activating, Fe-dependent histone lysine demethylases, is revealed to disrupt the binding of O2 in KDM4A/JMJD2A through a continuous O2-consumption assay, X-ray crystal structure data, and molecular docking.",
+		"container-title": "Chemical Communications",
+		"DOI": "10.1039/C6CC09882G",
+		"ISSN": "1364-548X",
+		"issue": "13",
+		"journalAbbreviation": "Chem. Commun.",
+		"language": "en",
+		"page": "2174-2177",
+		"publisher": "The Royal Society of Chemistry",
+		"source": "pubs.rsc.org",
+		"title": "The small molecule JIB-04 disrupts O2 binding in the Fe-dependent histone demethylase KDM4A/JMJD2A",
+		"URL": "https://pubs.rsc.org/en/content/articlelanding/2017/cc/c6cc09882g",
+		"volume": "53",
+		"author": [
+			{
+				"family": "Cascella",
+				"given": "Barbara"
+			},
+			{
+				"family": "Lee",
+				"given": "Soon Goo"
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Jez",
+				"given": "Joseph M."
+			},
+			{
+				"family": "Mirica",
+				"given": "Liviu M."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					2,
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/N7ISMEYQ",
+		"type": "article-journal",
+		"container-title": "Structure",
+		"DOI": "10.1016/j.str.2016.09.012",
+		"ISSN": "0969-2126",
+		"issue": "12",
+		"journalAbbreviation": "Structure",
+		"language": "English",
+		"page": "2067-2079",
+		"PMID": "27818101",
+		"publisher": "Elsevier",
+		"source": "www.cell.com",
+		"title": "Defining NADH-Driven Allostery Regulating Apoptosis-Inducing Factor",
+		"URL": "https://www.cell.com/structure/abstract/S0969-2126(16)30303-3",
+		"volume": "24",
+		"author": [
+			{
+				"family": "Brosey",
+				"given": "Chris A."
+			},
+			{
+				"family": "Ho",
+				"given": "Chris"
+			},
+			{
+				"family": "Long",
+				"given": "Winnie Z."
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Burnett",
+				"given": "Kathryn"
+			},
+			{
+				"family": "Hura",
+				"given": "Greg L."
+			},
+			{
+				"family": "Nix",
+				"given": "Jay C."
+			},
+			{
+				"family": "Bowman",
+				"given": "Gregory R."
+			},
+			{
+				"family": "Ellenberger",
+				"given": "Tom"
+			},
+			{
+				"family": "Tainer",
+				"given": "John A."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					12,
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/KH2W9FMU",
+		"type": "article-journal",
+		"abstract": "Poxviruses encode a broad array of proteins that serve to undermine host immune defenses. Structural analysis of four of these seemingly unrelated proteins revealed the recurrent use of a conserved beta-sandwich fold that has not been observed in any eukaryotic or prokaryotic protein. Herein we propose to call this unique structural scaffolding the PIE (Poxvirus Immune Evasion) domain. PIE domain containing proteins are abundant in chordopoxvirinae, with our analysis identifying 20 likely PIE subfamilies among 33 representative genomes spanning 7 genera. For example, cowpox strain Brighton Red appears to encode 10 different PIEs: vCCI, A41, C8, M2, T4 (CPVX203), and the SECRET proteins CrmB, CrmD, SCP-1, SCP-2, and SCP-3. Characterized PIE proteins all appear to be nonessential for virus replication, and all contain signal peptides for targeting to the secretory pathway. The PIE subfamilies differ primarily in the number, size, and location of structural embellishments to the beta-sandwich core that confer unique functional specificities. Reported ligands include chemokines, GM-CSF, IL-2, MHC class I, and glycosaminoglycans. We expect that the list of ligands and receptors engaged by the PIE domain will grow as we come to better understand how this versatile structural architecture can be tailored to manipulate host responses to infection.",
+		"container-title": "Viruses",
+		"DOI": "10.3390/v7092848",
+		"ISSN": "1999-4915",
+		"issue": "9",
+		"language": "en",
+		"license": "http://creativecommons.org/licenses/by/3.0/",
+		"note": "number: 9",
+		"page": "4873-4893",
+		"publisher": "Multidisciplinary Digital Publishing Institute",
+		"source": "www.mdpi.com",
+		"title": "Structural Conservation and Functional Diversity of the Poxvirus Immune Evasion (PIE) Domain Superfamily",
+		"URL": "https://www.mdpi.com/1999-4915/7/9/2848",
+		"volume": "7",
+		"author": [
+			{
+				"family": "Nelson",
+				"given": "Christopher A."
+			},
+			{
+				"family": "Epperson",
+				"given": "Megan L."
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Elliott",
+				"given": "Jabari I."
+			},
+			{
+				"family": "Fremont",
+				"given": "Daved H."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/59LL6ZEV",
+		"type": "article-journal",
+		"abstract": "Respiratory dysfunction is one of the most common causes of death associated with premature birth (Barton et al., 1999). In the United States, 7–10% of pregnant women receive antenatal glucocorticoid (GC) therapy (Matthews et al., 2004), while approximately 19% of very low birth weight infants receive postnatal GC therapy (Jobe, 2009). Clinical research suggests that GC treatment causes permanent neuromotor and cognitive deficits (Yeh et al., 2004) and stunts cerebellar growth (Parikh et al., 2007, Tam et al., 2011). We previously reported that GC-mediated neural progenitor cell (NPC) apoptosis may be responsible for cerebellar neuropathology (Maloney et al., 2011, Noguchi et al., 2008, Noguchi et al., 2011). The goal of the current study was to determine whether lithium protects NPCs from GC neuroapoptosis in vivo and in vitro. Given that it protects against a range of brain insults, we hypothesized that lithium would significantly attenuate GC induced NPC toxicity. We report that acute lithium pretreatment provides potent, cell-intrinsic neuroprotection against GC induced NPC toxicity in vivo and in vitro.",
+		"container-title": "Brain Research",
+		"DOI": "10.1016/j.brainres.2013.12.014",
+		"ISSN": "0006-8993",
+		"journalAbbreviation": "Brain Research",
+		"page": "54-63",
+		"source": "ScienceDirect",
+		"title": "Lithium protects against glucocorticoid induced neural progenitor cell apoptosis in the developing cerebellum",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0006899313015618",
+		"volume": "1545",
+		"author": [
+			{
+				"family": "Cabrera",
+				"given": "Omar"
+			},
+			{
+				"family": "Dougherty",
+				"given": "Joseph"
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Swiney",
+				"given": "Brant S."
+			},
+			{
+				"family": "Farber",
+				"given": "Nuri B."
+			},
+			{
+				"family": "Noguchi",
+				"given": "Kevin K."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					1,
+					30
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/RHXY5M3W",
+		"type": "article",
+		"abstract": "Structure-based drug discovery technologies generally require the prediction of putative bound poses of protein:small molecule complexes to prioritize them for synthesis. The predicted structures are used for a variety of downstream tasks such as pose-scoring functions or as a starting point for binding free energy estimation. The accuracy of downstream models depends on how well predicted poses match experimentally-validated poses. Although the ideal input to these downstream tasks would be experimental structures, the time and cost required to collect new experimental structures for synthesized compounds makes obtaining this structure for every input intractable. Thus, leveraging available structural data is required to efficiently extrapolate new designs. Using data from the open science COVID Moonshot project—where nearly every compound synthesized was crystallographically screened—we assess several popular strategies for generating docked poses in a structure-enabled discovery program using both retrospective and prospective analyses. We explore the tradeoff between the cost of obtaining crystal structures and the utility for accurately predicting poses of newly designed molecules. We find that a simple strategy using molecular similarity to identify relevant structures for template-guided docking is successful in predicting poses for the SARS-CoV-2 main viral protease. Further efficiency analysis suggests template-based docking of a scaffold series is a robust strategy even when the quantity of available structural data is limited. The resulting open source pipeline and curated datasets should prove useful for automated modeling of bound poses for downstream scoring, machine learning, and free energy calculation tasks for structure-based drug discovery programs.",
+		"DOI": "10.1101/2025.09.19.677428",
+		"language": "en",
+		"license": "© 2025, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution 4.0 International), CC BY 4.0, as described at http://creativecommons.org/licenses/by/4.0/",
+		"note": "ISSN: 2692-8205\npage: 2025.09.19.677428\nsection: New Results",
+		"publisher": "bioRxiv",
+		"source": "bioRxiv",
+		"title": "How many crystal structures do you need to trust your docking results?",
+		"URL": "https://www.biorxiv.org/content/10.1101/2025.09.19.677428v1",
+		"author": [
+			{
+				"family": "Payne",
+				"given": "Alexander Matthew"
+			},
+			{
+				"family": "Kaminow",
+				"given": "Benjamin"
+			},
+			{
+				"family": "MacDermott-Opeskin",
+				"given": "Hugo"
+			},
+			{
+				"family": "Pulido",
+				"given": "Iván"
+			},
+			{
+				"family": "Scheen",
+				"given": "Jenke"
+			},
+			{
+				"family": "Castellanos",
+				"given": "Maria A."
+			},
+			{
+				"family": "Fearon",
+				"given": "Daren"
+			},
+			{
+				"family": "Chodera",
+				"given": "John D."
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					11,
+					4
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					9,
+					24
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/Z4B2MURW",
+		"type": "article-journal",
+		"abstract": "Small molecule kinase inhibitors are critical in the modern treatment of cancers, evidenced by the existence of over 80 FDA-approved small-molecule kinase inhibitors. Unfortunately, intrinsic or acquired resistance, often causing therapy discontinuation, is frequently caused by mutations in the kinase therapeutic target. The advent of clinical tumor sequencing has opened additional opportunities for precision oncology to improve patient outcomes by pairing optimal therapies with tumor mutation profiles. However, modern precision oncology efforts are hindered by lack of sufficient biochemical or clinical evidence to classify each mutation as resistant or sensitive to existing inhibitors. Structure-based methods show promising accuracy in retrospective benchmarks at predicting whether a kinase mutation will perturb inhibitor binding, but comparisons are made by pooling disparate experimental measurements across different conditions. We present the first prospective benchmark of structure-based approaches on a blinded dataset of in-cell kinase inhibitor affinities to Abl kinase mutants using a NanoBRET reporter assay. We compare NanoBRET results to structure-based methods and their ability to estimate the impact of mutations on inhibitor binding (measured as ΔΔG). Comparing physics-based simulations, Rosetta, and previous machine learning models, we find that structure-based methods accurately classify kinase mutations as inhibitor-resistant or inhibitor-sensitizing, and each approach has a similar degree of accuracy. We show that physics-based simulations are best suited to estimate ΔΔG of mutations that are distal to the kinase active site. To probe modes of failure, we retrospectively investigate two clinically significant mutations poorly predicted by our methods, T315A and L298F, and find that starting configurations and protonation states significantly alter the accuracy of our predictions. Our experimental and computational measurements provide a benchmark for estimating the impact of mutations on inhibitor binding affinity for future methods and structure-based models. These structure-based methods have potential utility in identifying optimal therapies for tumor-specific mutations, predicting resistance mutations in the absence of clinical data, and identifying potential sensitizing mutations to established inhibitors.",
+		"container-title": "The Journal of Physical Chemistry B",
+		"DOI": "10.1021/acs.jpcb.4c07794",
+		"ISSN": "1520-6106",
+		"issue": "11",
+		"journalAbbreviation": "J. Phys. Chem. B",
+		"page": "2882-2902",
+		"publisher": "American Chemical Society",
+		"source": "ACS Publications",
+		"title": "Prospective Evaluation of Structure-Based Simulations Reveal Their Ability to Predict the Impact of Kinase Mutations on Inhibitor Binding",
+		"URL": "https://doi.org/10.1021/acs.jpcb.4c07794",
+		"volume": "129",
+		"author": [
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Gapsys",
+				"given": "Vytautas"
+			},
+			{
+				"family": "Aldeghi",
+				"given": "Matteo"
+			},
+			{
+				"family": "Schaller",
+				"given": "David"
+			},
+			{
+				"family": "Rangwala",
+				"given": "Aziz M."
+			},
+			{
+				"family": "White",
+				"given": "Jessica B."
+			},
+			{
+				"family": "Bluck",
+				"given": "Joseph P."
+			},
+			{
+				"family": "Scheen",
+				"given": "Jenke"
+			},
+			{
+				"family": "Glass",
+				"given": "William G."
+			},
+			{
+				"family": "Guo",
+				"given": "Jiaye"
+			},
+			{
+				"family": "Hayat",
+				"given": "Sikander"
+			},
+			{
+				"family": "Groot",
+				"given": "Bert L.",
+				"non-dropping-particle": "de"
+			},
+			{
+				"family": "Volkamer",
+				"given": "Andrea"
+			},
+			{
+				"family": "Christ",
+				"given": "Clara D."
+			},
+			{
+				"family": "Seeliger",
+				"given": "Markus A."
+			},
+			{
+				"family": "Chodera",
+				"given": "John D."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					12,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					3,
+					20
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/YQWCQPTA",
+		"type": "article-journal",
+		"abstract": "Structure-based drug design (SBDD) is an evolving paradigm that leverages protein structural information to improve small molecule therapeutic design. Building on more than 50 years of data curation from the Protein Data Bank, the recent emergence of protein structure prediction models (PSPMs) promises to enable new computationally driven approaches for therapeutic discovery. However, it is critical to assess the limitations of these models using blind challenges and to expand existing datasets to better reflect real-world drug design tasks. Here, we discuss recent efforts to benchmark existing PSPMs and identify their limitations. We offer a hierarchical framework for parsing which tasks the current models perform well, and which tasks remain challenging or unexplored. Finally, we emphasize the need for systematic dataset generation to support the development of frontier models and highlight recent efforts to generate experimental and physics-based datasets for challenging tasks in drug discovery.",
+		"container-title": "Current Opinion in Structural Biology",
+		"DOI": "10.1016/j.sbi.2026.103257",
+		"ISSN": "0959-440X",
+		"journalAbbreviation": "Current Opinion in Structural Biology",
+		"page": "103257",
+		"source": "ScienceDirect",
+		"title": "More protein-ligand data are needed for AlphaFold-like models to enable drug discovery",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0959440X26000394",
+		"volume": "98",
+		"author": [
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Clerkin",
+				"given": "Ariana Brenner"
+			},
+			{
+				"family": "Castellanos",
+				"given": "Maria A."
+			},
+			{
+				"family": "Chodera",
+				"given": "John D."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					4,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					6,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/CDXRRVW2",
+		"type": "article-journal",
+		"abstract": "Recent advances in machine learning (ML) are reshaping drug discovery. Structure-based ML methods use physically-inspired models to predict binding aﬃnities from protein:ligand complexes. These methods promise to enable the integration of data for many related targets, which addresses issues related to data scarcity for single targets and could enable generalizable predictions for a broad range of targets, including mutations. In this work, we report our experiences in building KinoML, a novel framework for ML in target-based small molecule drug discovery with an emphasis on structure-enabled methods. KinoML focuses currently on kinases as the relative structural conservation of this protein superfamily, particularly in the kinase domain, means it is possible to leverage data from the entire superfamily to make structure-informed predictions about binding affinities, selectivities, and drug resistance. Some key lessons learned in building KinoML include the importance of reproducible data collection and deposition, the harmonization of molecular data and featurization, and the selection of the right data format to ensure reusability and reproducibility of ML models. As a result, KinoML allows users to easily achieve three tasks: accessing and curating molecular data; featurizing this data with representations suitable for ML applications; and running reproducible ML experiments that require access to ligand, protein, and assay information to predict ligand affinity. Despite KinoML focusing on kinases, this framework can be applied to other proteins. The lessons reported here can help guide the development of platforms for structure-enabled ML in other areas of drug discovery.",
+		"container-title": "Living Journal of Computational Molecular Science",
+		"DOI": "10.33011/livecoms.6.1.3875",
+		"ISSN": "2575-6524",
+		"issue": "1",
+		"language": "en",
+		"license": "Copyright (c) 2025 Raquel López-Ríos de Castro, Jaime Rodríguez-Guerra, David Schaller, Talia B. Kimber, Corey Taylor, Jessica B. White, Michael Backenköhler, Joschka Groß, Alexander M. Payne, Benjamin Kaminow, Ivan Pulido, Sukrit Singh, Paula Linh Kramer, Guillermo Pérez-Hernández, Andrea Volkamer, John D. Chodera",
+		"page": "3875-3875",
+		"source": "livecomsjournal.org",
+		"title": "The Journey of Data: Lessons Learned in Modeling Kinase Affinity, Selectivity, and Resistance [Article v1.0]",
+		"title-short": "The Journey of Data",
+		"URL": "https://livecomsjournal.org/index.php/livecoms/article/view/v6i1e3875",
+		"volume": "6",
+		"author": [
+			{
+				"family": "Castro",
+				"given": "Raquel López-Ríos",
+				"dropping-particle": "de"
+			},
+			{
+				"family": "Rodríguez-Guerra",
+				"given": "Jaime"
+			},
+			{
+				"family": "Schaller",
+				"given": "David"
+			},
+			{
+				"family": "Kimber",
+				"given": "Talia B."
+			},
+			{
+				"family": "Taylor",
+				"given": "Corey"
+			},
+			{
+				"family": "White",
+				"given": "Jessica B."
+			},
+			{
+				"family": "Backenköhler",
+				"given": "Michael"
+			},
+			{
+				"family": "Groß",
+				"given": "Joschka"
+			},
+			{
+				"family": "Payne",
+				"given": "Alexander M."
+			},
+			{
+				"family": "Kaminow",
+				"given": "Benjamin"
+			},
+			{
+				"family": "Pulido",
+				"given": "Ivan"
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Kramer",
+				"given": "Paula Linh"
+			},
+			{
+				"family": "Pérez-Hernández",
+				"given": "Guillermo"
+			},
+			{
+				"family": "Volkamer",
+				"given": "Andrea"
+			},
+			{
+				"family": "Chodera",
+				"given": "John D."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					5,
+					25
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					11,
+					19
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/XVJZKFA3",
+		"type": "article",
+		"abstract": "The binding affinity of a ligand to a protein is influenced by the protonation and tautomeric states of both partners. However, this relationship remains under-investigated due to the limited availability of computational tools capable of considering all charge and tautomer states in a scalable manner to study clinically relevant systems. Here, we use Multi-Conformation Continuum Electrostatics (MCCE) to calculate the protonation and tautomer distributions of nine kinase domains bound to 18 FDA-approved inhibitors while considering their Boltzmann-ensemble. Our simulations show that protein net charge and proton distribution remain largely stable even upon binding charged inhibitors. Our results find that individual inhibitor charges are dynamic, frequently increasing, or decreasing upon binding a specific protein target. Kinase-inhibitor binding significantly shifts the relative probabilities of low-energy states (ΔG < 2.5 kcal/mol), though it does not recruit higher-energy conformers into the bound population. Our consideration of all possible charge states and tautomers enable us to identify when tautomer have significant significant free binding energy differentials (3–6kcal/mol). In turn, we find that minority species can become the dominant component in the bound state, emphasizing the necessity of considering ensemble-wide protonation and tautomer states to accurately predict protein-ligand binding energetics.",
+		"DOI": "10.64898/2026.07.27.741060",
+		"language": "en",
+		"license": "© 2026, Posted by openRxiv. This pre-print is available under a Creative Commons License (Attribution 4.0 International), CC BY 4.0, as described at http://creativecommons.org/licenses/by/4.0/",
+		"note": "ISSN: 2692-8205\npage: 2026.07.27.741060\nsection: New Results",
+		"publisher": "bioRxiv",
+		"source": "bioRxiv",
+		"title": "Kinase inhibitors can change protonation or tautomeric state upon binding",
+		"URL": "https://www.biorxiv.org/content/10.64898/2026.07.27.741060v1",
+		"author": [
+			{
+				"family": "Ranepura",
+				"given": "Gehan A."
+			},
+			{
+				"family": "Chowdhury",
+				"given": "Saqibul I."
+			},
+			{
+				"family": "Rosenzweig",
+				"given": "Elizabeth A."
+			},
+			{
+				"family": "Rustenburg",
+				"given": "Ariën S."
+			},
+			{
+				"family": "Castro",
+				"given": "Raquel López-Ríos",
+				"dropping-particle": "de"
+			},
+			{
+				"family": "Mao",
+				"given": "Junjun"
+			},
+			{
+				"family": "Chodera",
+				"given": "John D."
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Gunner",
+				"given": "M. R."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					8,
+					31
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					7,
+					30
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/44BCRJSR",
+		"type": "article",
+		"abstract": "Protein kinase activation is driven by conformational changes across multiple structural components, including the conserved Asp–Phe–Gly (DFG) motif, but whether these transitions follow a universal mechanism remains unclear. Here we combine over 8.3 milliseconds of distributed unbiased molecular dynamics simulations with Markov state models (MSMs) to compare the conformational landscapes of the ABL1, EGFR and MET kinase domains. To maximize unbiased sampling of functionally relevant conformational space, we use a transfer seeding strategy that steers AlphaFold2 models derived from homologous templates to sample MET conformational states absent from available experimental databases. We find that related DFG-motif geometries separate into distinct kinetic networks. These shared structural states are connected by kinase-specific activation pathways with different regulatory elements controlling the slowest step of activation. Our findings reveal that the shared nomenclature masks distinct transition mechanisms between kinase domains, revealing new regions critical for activity and targetable conformations for inhibitor design.",
+		"DOI": "10.64898/2026.06.26.734786",
+		"language": "en",
+		"license": "© 2026, Posted by openRxiv. This pre-print is available under a Creative Commons License (Attribution 4.0 International), CC BY 4.0, as described at http://creativecommons.org/licenses/by/4.0/",
+		"note": "ISSN: 2692-8205\npage: 2026.06.26.734786\nsection: New Results",
+		"publisher": "bioRxiv",
+		"source": "bioRxiv",
+		"title": "Tyrosine kinases sample unique activation ensembles",
+		"URL": "https://www.biorxiv.org/content/10.64898/2026.06.26.734786v1",
+		"author": [
+			{
+				"family": "Zhu",
+				"given": "Yanchen"
+			},
+			{
+				"family": "Degiacomi",
+				"given": "Matteo T."
+			},
+			{
+				"family": "Mey",
+				"given": "Antonia S. J. S."
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					8,
+					31
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					7,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/4R3AYR27",
+		"type": "article-journal",
+		"abstract": "The mechanisms underlying clinical T-DXd resistance have not been established. We now report on two mechanisms of resistance that converge on loss of target binding and propose combinations of distinct ADCs with shared payloads as a strategy to overcome resistance by enhancing intratumor delivery.See related commentary by O’Meara and Tarantino, p.195",
+		"container-title": "Cancer Discovery",
+		"DOI": "10.1158/2159-8290.CD-25-0647",
+		"ISSN": "2159-8274",
+		"issue": "2",
+		"journalAbbreviation": "Cancer Discov",
+		"page": "235-249",
+		"source": "Silverchair",
+		"title": "Trastuzumab Deruxtecan Resistance via Loss of HER2 Expression and Binding",
+		"URL": "https://doi.org/10.1158/2159-8290.CD-25-0647",
+		"volume": "16",
+		"author": [
+			{
+				"family": "Chen",
+				"given": "Wanyi"
+			},
+			{
+				"family": "Gupta",
+				"given": "Avantika"
+			},
+			{
+				"family": "Mai",
+				"given": "Nicholas"
+			},
+			{
+				"family": "Nag",
+				"given": "Sharanya"
+			},
+			{
+				"family": "Lau",
+				"given": "Joshua S."
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Chodera",
+				"given": "John D."
+			},
+			{
+				"family": "Liu",
+				"given": "Bo"
+			},
+			{
+				"family": "Stanchina",
+				"given": "Elisa",
+				"non-dropping-particle": "de"
+			},
+			{
+				"family": "Pareja",
+				"given": "Fresia"
+			},
+			{
+				"family": "Hashmi",
+				"given": "Atif Ali"
+			},
+			{
+				"family": "Lieberman",
+				"given": "Miriam M."
+			},
+			{
+				"family": "Modi",
+				"given": "Shanu"
+			},
+			{
+				"family": "Bromberg",
+				"given": "Jacqueline"
+			},
+			{
+				"family": "Razavi",
+				"given": "Pedram"
+			},
+			{
+				"family": "Drago",
+				"given": "Joshua Z."
+			},
+			{
+				"family": "Chandarlapaty",
+				"given": "Sarat"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					8,
+					31
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					2,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/XPI7D7HD",
+		"type": "article-journal",
+		"abstract": "The COVID-19 pandemic, caused by the SARS-CoV-2 virus, has led to significant global morbidity and mortality. A crucial viral protein, the non-structural protein 14 (nsp14), catalyzes the methylation of viral RNA and plays a critical role in viral genome replication and transcription. Due to the low mutation rate in the nsp region among various SARS-CoV-2 variants, nsp14 has emerged as a promising therapeutic target. However, discovering potential inhibitors remains a challenge. In this work, we introduce a computational pipeline for the rapid and efficient identification of potential nsp14 inhibitors by leveraging virtual screening and the NCI open compound collection, which contains 250 000 freely available molecules for researchers worldwide. The introduced pipeline provides a cost-effective and efficient approach for early-stage drug discovery by allowing researchers to evaluate promising molecules without incurring synthesis expenses. Our pipeline successfully identified seven candidates that inhibit the MTase activity of nsp14. Among these, one compound, NSC62033, demonstrated strong binding affinity to nsp14, exhibiting a dissociation constant of 427 ± 84 nM. In addition, we gained new insights into the structure and function of this protein through molecular dynamics simulations. Furthermore, our molecular dynamics simulations suggest potential new conformational states of the protein, with residues Phe367, Tyr368, and Gln354 in the binding pocket potentially playing a role in stabilizing interactions with novel ligands, though further validation is required. Our findings also indicate that metal coordination complexes may be important for the function of the binding pocket. Lastly, we present the solved crystal structure of the nsp14-MTase complexed with SS148 (PDB:8BWU), a potent inhibitor of methyltransferase activity at the nanomolar level (IC50 value of 70 ± 6 nM).",
+		"container-title": "Digital Discovery",
+		"DOI": "10.1039/d4dd00006d",
+		"ISSN": "2635-098X",
+		"issue": "7",
+		"journalAbbreviation": "Digital Discovery",
+		"page": "1327-1341",
+		"source": "Silverchair",
+		"title": "Application of established computational techniques to identify potential SARS-CoV-2 Nsp14-MTase inhibitors in low data regimes",
+		"URL": "https://doi.org/10.1039/d4dd00006d",
+		"volume": "3",
+		"author": [
+			{
+				"family": "Nigam",
+				"given": "AkshatKumar"
+			},
+			{
+				"family": "Hurley",
+				"given": "Matthew F. D."
+			},
+			{
+				"family": "Li",
+				"given": "Fengling"
+			},
+			{
+				"family": "Konkoľová",
+				"given": "Eva"
+			},
+			{
+				"family": "Klíma",
+				"given": "Martin"
+			},
+			{
+				"family": "Trylčová",
+				"given": "Jana"
+			},
+			{
+				"family": "Pollice",
+				"given": "Robert"
+			},
+			{
+				"family": "Çinaroǧlu",
+				"given": "Süleyman Selim"
+			},
+			{
+				"family": "Levin-Konigsberg",
+				"given": "Roni"
+			},
+			{
+				"family": "Handjaya",
+				"given": "Jasemine"
+			},
+			{
+				"family": "Schapira",
+				"given": "Matthieu"
+			},
+			{
+				"family": "Chau",
+				"given": "Irene"
+			},
+			{
+				"family": "Perveen",
+				"given": "Sumera"
+			},
+			{
+				"family": "Ng",
+				"given": "Ho-Leung"
+			},
+			{
+				"family": "Kaniskan",
+				"given": "H. Ümit"
+			},
+			{
+				"family": "Han",
+				"given": "Yulin"
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Gorgulla",
+				"given": "Christoph"
+			},
+			{
+				"family": "Kundaje",
+				"given": "Anshul"
+			},
+			{
+				"family": "Jin",
+				"given": "Jian"
+			},
+			{
+				"family": "Voelz",
+				"given": "Vincent A."
+			},
+			{
+				"family": "Weber",
+				"given": "Jan"
+			},
+			{
+				"family": "Nencka",
+				"given": "Radim"
+			},
+			{
+				"family": "Boura",
+				"given": "Evzen"
+			},
+			{
+				"family": "Vedadi",
+				"given": "Masoud"
+			},
+			{
+				"family": "Aspuru-Guzik",
+				"given": "Alán"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					8,
+					31
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					7,
+					1
+				]
+			]
+		}
+	}
+]
