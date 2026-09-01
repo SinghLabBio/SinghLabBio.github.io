@@ -1,0 +1,9 @@
+# Hugo build output — never commit this
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# Optional: vendored modules, if you enable `hugo mod vendor` (see L4)
+# /_vendor/
+
+.DS_Store

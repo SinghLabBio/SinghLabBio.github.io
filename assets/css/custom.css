@@ -1,0 +1,61 @@
+/* --- Brand tokens ------------------------------------------------------ */
+:root {
+    --sl-orange: #EC672B;
+    --sl-blue: #2351F5;
+    --sl-navy: #07004D;
+    --sl-orange-lt: #EF9537;
+    --sl-gray-lt: #EDEDED;
+}
+
+/* --- Accent, light mode: brand blue is 5.8:1 on white, passes AA -------- */
+:root {
+    --primary-hue: 227deg;
+    --primary-saturation: 91%;
+    --primary-lightness: 55%;
+}
+
+/* --- Accent + backdrop, dark mode --------------------------------------- */
+/* Brand blue is only 2.9:1 on dark gray and fails AA, so dark mode uses    */
+/* the secondary orange #EF9537 (7.5:1, AAA).                              */
+.dark {
+    --primary-hue: 31deg;
+    --primary-saturation: 85%;
+    --primary-lightness: 58%;
+
+    --hx-color-dark: #1c1c20;
+    /* page backdrop; Hextra's default is #111 */
+}
+
+/* --- Surfaces ---------------------------------------------------------- */
+.dark .hextra-card,
+.dark .hextra-feature-card {
+    background-color: #232329;
+    border-color: #34343d;
+}
+
+/* --- Brand rule under the navbar --------------------------------------- */
+.hextra-nav-container {
+    border-bottom: 2px solid var(--sl-orange);
+}
+
+/* --- Hero headline gradient (needs the sl-hero wrapper in _index.md) ---- */
+.sl-hero h1 {
+    background-image: linear-gradient(90deg, var(--sl-blue), var(--sl-orange));
+}
+
+.dark .sl-hero h1 {
+    background-image: linear-gradient(90deg, #7d9bff, var(--sl-orange-lt));
+}
+
+/* --- Animated logo: show the ink variant matching the theme ------------- */
+.sl-anim-dark {
+    display: none;
+}
+
+.dark .sl-anim-light {
+    display: none;
+}
+
+.dark .sl-anim-dark {
+    display: block;
+}

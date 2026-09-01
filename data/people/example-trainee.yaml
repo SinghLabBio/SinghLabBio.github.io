@@ -1,0 +1,11 @@
+weight: 30
+group: postdoc
+name: A. N. Example
+family: Example
+given: Anne
+title: Postdoctoral Fellow
+affiliations: [Fox Chase Cancer Center]
+# no photo: the partial falls back to a monogram tile
+bio: Placeholder entry showing the no-photo fallback.
+links:
+  - {icon: mail, label: Email, url: "mailto:example@singhlab.bio"}
