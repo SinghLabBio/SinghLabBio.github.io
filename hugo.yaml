@@ -1,5 +1,5 @@
 baseURL: https://singhlab.bio/
-languageCode: en-us
+locale: en-us
 title: Sukrit Singh Lab
 
 # Keep the raw-HTML compatibility: lets me drop NGL / Mol* / 3Dmol.js /
