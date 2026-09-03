@@ -326,3 +326,321 @@
         }
     }
 }
+
+/* --- Publications (layouts/_shortcodes/publications.html) ----------------- */
+.sl-pubs {
+    margin-top: 1rem;
+    /* Master text size for the whole list. Every size below is in em, so
+       changing this one number scales titles, authors, venue, links together.
+       1rem = the page's base size (16px in Hextra); try 1.05rem or 1.1rem. */
+    --sl-pub-size: 1rem;
+    font-size: var(--sl-pub-size);
+}
+
+/* legend */
+.sl-pubs-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .35rem 1.25rem;
+    margin: 0 0 .75rem;
+    font-size: 1em;
+    /* legend text size (was .85em) */
+    opacity: .9;
+}
+
+.sl-pubs-legend>div {
+    display: flex;
+    align-items: baseline;
+    gap: .4rem;
+}
+
+.sl-pubs-legend dt {
+    min-width: 1.4em;
+    text-align: center;
+}
+
+.sl-pubs-legend .sl-pub-role {
+    --sl-role-size: 1.25em;
+    line-height: 1;
+}
+
+/* symbols in the legend, a bit larger still */
+
+.sl-pubs-legend dd {
+    margin: 0;
+}
+
+.sl-pub-role {
+    /* Role symbols after an author name. Make --sl-role-size bigger or
+       smaller to taste; 1em = same size as the author text. */
+    --sl-role-size: 1em;
+    color: var(--hx-color-primary-600);
+    font-size: var(--sl-role-size);
+    font-weight: 700;
+    line-height: 0;
+    /* keep it from pushing the line taller */
+    margin-left: .15em;
+}
+
+.dark .sl-pub-role {
+    color: var(--hx-color-primary-400);
+}
+
+.sl-pubs-toolbar {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: .85em;
+    opacity: .8;
+    margin-bottom: .75rem;
+}
+
+.sl-pubs-count {
+    margin-right: auto;
+}
+
+.sl-pubs-btn {
+    all: unset;
+    cursor: pointer;
+    padding: .25rem .6rem;
+    border: 1px solid rgb(127 127 127 / .35);
+    border-radius: .375rem;
+}
+
+.sl-pubs-btn:hover,
+.sl-pubs-btn:focus-visible {
+    border-color: var(--hx-color-primary-500);
+    color: var(--hx-color-primary-500);
+}
+
+/* one collapsible block per year */
+.sl-pub-year {
+    border: 1px solid #e5e7eb;
+    border-radius: .75rem;
+    margin-bottom: .75rem;
+    background: #fff;
+}
+
+.dark .sl-pub-year {
+    background: #232329;
+    border-color: #34343d;
+}
+
+.sl-pub-year>summary {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    padding: .75rem 1rem;
+    font-weight: 700;
+    font-size: 1.15em;
+}
+
+.sl-pub-year>summary::-webkit-details-marker {
+    display: none;
+}
+
+.sl-pub-chevron {
+    flex: 0 0 auto;
+    opacity: .6;
+    transition: transform .15s;
+}
+
+.sl-pub-year[open]>summary .sl-pub-chevron {
+    transform: rotate(90deg);
+}
+
+.sl-pub-year>summary:hover .sl-pub-chevron {
+    opacity: 1;
+}
+
+.sl-pub-year>summary:focus-visible {
+    outline: 2px solid var(--hx-color-primary-500);
+    outline-offset: -2px;
+    border-radius: inherit;
+}
+
+.sl-pub-year-count {
+    font-size: .75em;
+    font-weight: 600;
+    padding: .1rem .5rem;
+    border-radius: 999px;
+    background: rgb(127 127 127 / .15);
+}
+
+.sl-pub-list {
+    list-style: none;
+    margin: 0;
+    padding: 0 1rem .5rem;
+}
+
+.sl-pub {
+    padding: .85rem 0;
+    border-top: 1px solid rgb(127 127 127 / .2);
+    line-height: 1.5;
+}
+
+.sl-pub-hl {
+    border-left: 3px solid var(--hx-color-primary-500);
+    padding-left: .75rem;
+}
+
+.sl-pub-title {
+    font-weight: 600;
+}
+
+.sl-pub-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.sl-pub-title a:hover,
+.sl-pub-title a:focus-visible {
+    color: var(--hx-color-primary-500);
+    text-decoration: underline;
+}
+
+.sl-pub-badge {
+    font-size: .7em;
+    font-weight: 600;
+    vertical-align: middle;
+    padding: .05rem .45rem;
+    border-radius: 999px;
+    margin-left: .25rem;
+    white-space: nowrap;
+}
+
+.sl-pub-badge-pre {
+    background: rgb(127 127 127 / .18);
+}
+
+.sl-pub-badge-hl {
+    color: #fff;
+    background-image: linear-gradient(135deg, var(--sl-blue), var(--sl-orange));
+}
+
+.sl-pub-authors {
+    font-size: .95em;
+    opacity: .9;
+    margin-top: .15rem;
+}
+
+.sl-pub-lab {
+    font-weight: 700;
+    opacity: 1;
+}
+
+.sl-pub-venue {
+    font-size: .85em;
+    opacity: .7;
+    margin-top: .1rem;
+}
+
+.sl-pub-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: .35rem .75rem;
+    font-size: .8em;
+    margin-top: .35rem;
+}
+
+.sl-pub-links a {
+    color: var(--hx-color-primary-600);
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+}
+
+.dark .sl-pub-links a {
+    color: var(--hx-color-primary-400);
+}
+
+.sl-pub-abstract {
+    flex-basis: 100%;
+}
+
+.sl-pub-abstract>summary {
+    cursor: pointer;
+    display: inline;
+    color: var(--hx-color-primary-600);
+    border-bottom: 1px dotted currentColor;
+}
+
+.dark .sl-pub-abstract>summary {
+    color: var(--hx-color-primary-400);
+}
+
+.sl-pub-abstract>p {
+    font-size: .85em;
+    opacity: .85;
+    margin: .5rem 0 0;
+    padding-left: .75rem;
+    border-left: 2px solid rgb(127 127 127 / .3);
+}
+
+.sl-pub-blurb {
+    font-size: .85em;
+    margin-top: .35rem;
+    font-style: italic;
+    opacity: .85;
+}
+
+/* --- Publication figures (meta `image:`) ---------------------------------- */
+/* inside the unfurled abstract */
+.sl-pub-figure {
+    margin: .5rem 0 .75rem;
+    padding-left: .75rem;
+    border-left: 2px solid rgb(127 127 127 / .3);
+}
+
+.sl-pub-figure img {
+    display: block;
+    max-width: min(100%, 36rem);
+    /* cap width; change 36rem for bigger/smaller */
+    height: auto;
+    border-radius: .5rem;
+}
+
+.sl-pub-figure figcaption {
+    font-size: .8em;
+    opacity: .75;
+    margin-top: .35rem;
+}
+
+/* always-visible thumbnail on the right of the entry */
+.sl-pub-has-thumb {
+    display: grid;
+    grid-template-columns: 1fr 9rem;
+    /* text | thumbnail width */
+    column-gap: 1rem;
+}
+
+.sl-pub-has-thumb>.sl-pub-thumb {
+    grid-column: 2;
+    grid-row: 1 / span 6;
+    /* spans every text row of the entry */
+    align-self: start;
+}
+
+.sl-pub-thumb img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: .5rem;
+    border: 1px solid rgb(127 127 127 / .25);
+}
+
+@media (max-width: 600px) {
+    .sl-pub-has-thumb {
+        grid-template-columns: 1fr;
+    }
+
+    .sl-pub-has-thumb>.sl-pub-thumb {
+        grid-column: 1;
+        grid-row: auto;
+        max-width: 14rem;
+        margin-bottom: .5rem;
+    }
+}
