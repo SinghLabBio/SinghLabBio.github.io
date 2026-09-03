@@ -1,0 +1,112 @@
+{{- /* layouts/_partials/team/card.html  -- one person: card + hidden <dialog> */ -}}
+{{- $p := . -}}
+{{- $id := printf "person-%s" $p.slug -}}
+
+{{- /* ---- photo: processed from assets/, or monogram fallback ---- */ -}}
+{{- $img := false -}}
+{{- /* photoRatio "WxH" (any integers, e.g. 1x1, 4x5, 3x2). Card width is fixed at 640px;
+       height follows the ratio, and the same ratio is passed to CSS via --sl-ratio. */ -}}
+{{- $rw := 4 -}}{{- $rh := 5 -}}
+{{- with $p.photoRatio -}}
+  {{- $parts := split (lower .) "x" -}}
+  {{- if eq (len $parts) 2 -}}{{- $rw = int (index $parts 0) -}}{{- $rh = int (index $parts 1) -}}
+  {{- else -}}{{- warnf "team: photoRatio %q for %q must look like 4x5" . $p.slug -}}{{- end -}}
+{{- end -}}
+{{- $w := 640 -}}{{- $h := int (math.Round (mul 640 (div (float $rh) (float $rw)))) -}}
+{{- with $p.photo -}}
+  {{- with resources.Get . -}}
+    {{- $anchor := $p.photoAnchor | default "Center" -}}
+    {{- $img = .Fill (printf "%dx%d %s webp q85" $w $h $anchor) -}}
+  {{- else -}}
+    {{- warnf "team: photo %q for %q not found under assets/ -- using monogram" . $p.slug -}}
+  {{- end -}}
+{{- end -}}
+{{- /* CV: if static/team/cv/<slug>.pdf exists, a CV link is added automatically;
+       an explicit `cv:` in the YAML overrides the path. */ -}}
+{{- $links := $p.links | default slice -}}
+{{- $cv := $p.cv | default (cond (fileExists (printf "static/team/cv/%s.pdf" $p.slug)) (printf "/team/cv/%s.pdf" $p.slug) "") -}}
+{{- with $cv }}{{ $links = $links | append (dict "icon" "document-text" "label" "CV" "url" .) }}{{ end -}}
+{{- $initials := printf "%.1s%.1s" ($p.given | default $p.name) ($p.family | default "") -}}
+
+{{- /* `link:` in the YAML turns the card into a plain link (e.g. a recruiting card -> /join/)
+       and suppresses the pop-up entirely. */ -}}
+{{- $href := "" -}}
+{{- with $p.link -}}{{- $href = cond (hasPrefix . "/") (relURL (strings.TrimPrefix "/" .)) . -}}{{- end -}}
+<div class="hextra-card sl-person" id="{{ $id }}-card" style="--sl-ratio: {{ $rw }} / {{ $rh }};">
+  {{- if $href }}
+  <a class="sl-person-open" href="{{ $href }}" title="{{ $p.name }}">
+  {{- else }}
+  <button type="button" class="sl-person-open" data-dialog="{{ $id }}"
+          aria-haspopup="dialog" aria-controls="{{ $id }}"
+          title="More about {{ $p.name }}">
+  {{- end }}
+    {{- with $img -}}
+    <img class="sl-person-photo" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"
+         alt="Portrait of {{ $p.name }}" loading="lazy" decoding="async">
+    {{- else -}}
+    <div class="sl-person-monogram" aria-hidden="true"><span>{{ $initials }}</span></div>
+    {{- end -}}
+    <div class="sl-person-body">
+      <span class="sl-person-name">{{ $p.name }}</span>
+      {{- with $p.pronouns }} <span class="sl-person-pronouns">({{ . }})</span>{{ end }}
+      {{- with $p.title }}<div class="sl-person-title">{{ . }}</div>{{ end }}
+      {{- with $p.headline }}<div class="sl-person-headline">{{ . | markdownify }}</div>{{ end }}
+      <span class="sl-person-more">{{ $p.linkText | default "More" }} &rarr;</span>
+    </div>
+  {{- if $href }}</a>{{ else }}</button>{{ end }}
+  {{- with $links }}
+  <nav class="sl-person-links" aria-label="Links for {{ $p.name }}">
+    {{- range . -}}
+    {{- $ext := hasPrefix .url "http" -}}
+    <a href="{{ .url }}" title="{{ .label }}" aria-label="{{ .label }}"{{ if $ext }} target="_blank" rel="noopener noreferrer"{{ end }}>
+      {{- partial "utils/icon.html" (dict "name" (.icon | default "link") "attributes" `height="18" width="18"`) -}}
+    </a>
+    {{- end -}}
+  </nav>
+  {{- end }}
+</div>
+
+{{- if not $href }}
+<dialog id="{{ $id }}" class="sl-person-dialog" aria-labelledby="{{ $id }}-name">
+  <div class="sl-person-dialog-inner">
+    <button type="button" class="sl-dialog-close" data-close aria-label="Close">
+      {{- partial "utils/icon.html" (dict "name" "x" "attributes" `height="20" width="20"`) -}}
+    </button>
+    <header class="sl-dialog-header">
+      {{- with $img -}}
+      <img class="sl-dialog-photo" src="{{ .RelPermalink }}" alt="" width="{{ .Width }}" height="{{ .Height }}">
+      {{- else -}}
+      <div class="sl-person-monogram sl-dialog-photo" aria-hidden="true"><span>{{ $initials }}</span></div>
+      {{- end -}}
+      <div>
+        <h3 id="{{ $id }}-name" class="sl-dialog-name">{{ $p.name }}{{ with $p.pronouns }} <span class="sl-person-pronouns">({{ . }})</span>{{ end }}</h3>
+        {{- with $p.title }}<div class="sl-person-title">{{ . }}</div>{{ end }}
+        {{- with $p.affiliations }}<div class="sl-dialog-affil">{{ delimit . " &middot; " | safeHTML }}</div>{{ end }}
+      </div>
+    </header>
+
+    {{- with $p.bio }}<div class="sl-dialog-bio">{{ . | markdownify }}</div>{{ end }}
+
+    {{- /* Free-form sections: each has a heading and either `body` (markdown) or `items` (list) or both. */ -}}
+    {{- range $p.sections }}
+    <section class="sl-dialog-section">
+      {{- with .heading }}<h4>{{ . }}</h4>{{ end }}
+      {{- with .body }}<div>{{ . | markdownify }}</div>{{ end }}
+      {{- with .items }}<ul>{{ range . }}<li>{{ . | markdownify }}</li>{{ end }}</ul>{{ end }}
+    </section>
+    {{- end }}
+
+    {{- with $links }}
+    <nav class="sl-person-links sl-dialog-links" aria-label="Links for {{ $p.name }}">
+      {{- range . -}}
+      {{- $ext := hasPrefix .url "http" -}}
+      <a href="{{ .url }}"{{ if $ext }} target="_blank" rel="noopener noreferrer"{{ end }}>
+        {{- partial "utils/icon.html" (dict "name" (.icon | default "link") "attributes" `height="16" width="16"`) -}}
+        <span>{{ .label }}</span>
+      </a>
+      {{- end -}}
+    </nav>
+    {{- end }}
+  </div>
+</dialog>
+{{- end }}

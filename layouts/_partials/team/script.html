@@ -1,0 +1,21 @@
+{{- /* layouts/_partials/team/script.html -- ~20 lines, no dependencies.
+       Opens/closes the <dialog> for each card. Idempotent (guarded), so the
+       shortcode can be used more than once on a page. */ -}}
+<script>
+(function () {
+  if (window.__slTeamInit) return; window.__slTeamInit = true;
+  document.addEventListener('click', function (e) {
+    var opener = e.target.closest('[data-dialog]');
+    if (opener) {
+      var d = document.getElementById(opener.dataset.dialog);
+      if (d && typeof d.showModal === 'function') { d.showModal(); }
+      return;
+    }
+    var dlg = e.target.closest('dialog.sl-person-dialog');
+    if (dlg && (e.target === dlg || e.target.closest('[data-close]'))) dlg.close();
+  });
+  // Deep link: /team/#person-<slug> opens that person's pop-up on load.
+  var h = location.hash && document.getElementById(location.hash.slice(1));
+  if (h && h.tagName === 'DIALOG' && typeof h.showModal === 'function') h.showModal();
+})();
+</script>

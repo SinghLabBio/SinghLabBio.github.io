@@ -1,5 +1,5 @@
 ---
-title: team
+title: Team
 ---
 
-Coming soon.
+{{< team >}}

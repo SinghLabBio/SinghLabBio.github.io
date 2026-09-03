@@ -1,0 +1,44 @@
+{{- /*
+  layouts/_shortcodes/team.html
+  Renders every YAML file in data/people/ as a card grid, grouped by `group`.
+
+  Usage in content/team/_index.md:
+    {{< team >}}                          all groups, in the order below
+    {{< team groups="pi,postdoc,grad" >}} only some groups (e.g. keep alumni on another page)
+    {{< team cols="4" >}}                 change grid density (default 3)
+*/ -}}
+{{- $cols := .Get "cols" | default 3 -}}
+
+{{- /* Group ids and their display headings. Edit labels/order here.
+       A person whose `group:` is not listed here is silently skipped. */ -}}
+{{- $allGroups := slice
+  (dict "id" "pi"        "label" "Principal Investigator")
+  (dict "id" "staff"     "label" "Staff")
+  (dict "id" "postdoc"   "label" "Postdoctoral Fellows")
+  (dict "id" "grad"      "label" "Graduate Students")
+  (dict "id" "undergrad" "label" "Undergraduate Researchers")
+  (dict "id" "alumni"    "label" "Alumni")
+-}}
+{{- $wanted := slice -}}
+{{- with .Get "groups" -}}{{- $wanted = split (replace . " " "") "," -}}{{- end -}}
+
+{{- /* Flatten the data map into a slice, injecting the filename slug as an id. */ -}}
+{{- $people := slice -}}
+{{- range $slug, $p := hugo.Data.people -}}
+  {{- $people = $people | append (merge $p (dict "slug" $slug)) -}}
+{{- end -}}
+
+{{- range $g := $allGroups -}}
+  {{- if or (not $wanted) (in $wanted $g.id) -}}
+    {{- with where $people "group" $g.id -}}
+<h2 id="team-{{ $g.id }}">{{ $g.label }}</h2>
+<div class="hextra-cards sl-team hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: {{ $cols }};">
+      {{- range sort . "weight" -}}
+        {{- partial "team/card.html" . -}}
+      {{- end -}}
+</div>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- partial "team/script.html" . -}}

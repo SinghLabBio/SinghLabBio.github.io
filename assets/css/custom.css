@@ -65,5 +65,264 @@
 .hextra-nav-container { --hx-text-sm: 1.5625rem; }          /* menu links: 17px */
 .hextra-nav-container .hx\:font-extrabold {
     /* the "Sukrit Singh Lab" wordmark */
-    font-size: 2.25rem;
+    font-size: 2.0rem;
+}
+
+/* --- Team cards (layouts/_shortcodes/team.html) --------------------------- */
+.sl-person {
+    /* inherits .hextra-card border/radius/dark surface */
+    display: flex;
+    flex-direction: column;
+}
+
+.sl-person-open {
+    /* reset <button>/<a> so it looks like card content */
+    all: unset;
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.sl-person-open:focus-visible {
+    outline: 2px solid var(--hx-color-primary-500);
+    outline-offset: -2px;
+    border-radius: inherit;
+}
+
+.sl-person:hover {
+    border-color: var(--hx-color-primary-500);
+    box-shadow: 0 4px 16px rgb(0 0 0 / .08);
+}
+
+.sl-person-photo,
+.sl-person-monogram {
+    width: 100%;
+    aspect-ratio: var(--sl-ratio, 4 / 5);
+    /* set per card from photoRatio in the YAML */
+    object-fit: cover;
+    display: block;
+}
+
+.sl-person-monogram {
+    display: grid;
+    place-items: center;
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #fff;
+    background-image: linear-gradient(135deg, var(--sl-blue), var(--sl-orange));
+}
+
+.sl-person-body {
+    padding: 1rem 1rem .5rem;
+}
+
+.sl-person-name {
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+
+.sl-person-pronouns {
+    font-weight: 400;
+    font-size: .85em;
+    opacity: .7;
+}
+
+.sl-person-title {
+    color: var(--hx-color-primary-600);
+    font-size: .9rem;
+    margin-top: .15rem;
+}
+
+.dark .sl-person-title {
+    color: var(--hx-color-primary-400);
+}
+
+.sl-person-headline {
+    font-size: .875rem;
+    opacity: .75;
+    margin-top: .4rem;
+}
+
+.sl-person-more {
+    font-size: .8rem;
+    opacity: .6;
+    margin-top: .5rem;
+    display: block;
+}
+
+.sl-person-open:hover .sl-person-more {
+    opacity: 1;
+    color: var(--hx-color-primary-500);
+}
+
+.sl-person-links {
+    /* icon row, outside the button (no nested interactives) */
+    display: flex;
+    flex-wrap: wrap;
+    gap: .25rem;
+    padding: 0 .75rem .75rem;
+    margin-top: auto;
+}
+
+.sl-person-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: .35rem;
+    padding: .35rem;
+    border-radius: .375rem;
+    color: inherit;
+    opacity: .7;
+}
+
+.sl-person-links a:hover,
+.sl-person-links a:focus-visible {
+    opacity: 1;
+    background: rgb(127 127 127 / .15);
+    color: var(--hx-color-primary-500);
+}
+
+/* --- Team pop-up (<dialog>) ---------------------------------------------- */
+.sl-person-dialog {
+    margin: auto;
+    padding: 0;
+    /* so backdrop clicks hit the <dialog> itself */
+    border: 1px solid #e5e7eb;
+    border-radius: .75rem;
+    max-width: min(44rem, 92vw);
+    width: 100%;
+    max-height: 88vh;
+    background: #fff;
+    color: inherit;
+    box-shadow: 0 20px 60px rgb(0 0 0 / .3);
+}
+
+.dark .sl-person-dialog {
+    background: #232329;
+    border-color: #34343d;
+    color: #e5e7eb;
+}
+
+.sl-person-dialog::backdrop {
+    background: rgb(0 0 0 / .55);
+    backdrop-filter: blur(3px);
+}
+
+.sl-person-dialog-inner {
+    padding: 1.5rem 1.75rem 1.75rem;
+    overflow-y: auto;
+    max-height: 88vh;
+    position: relative;
+}
+
+.sl-dialog-close {
+    all: unset;
+    cursor: pointer;
+    position: absolute;
+    top: .75rem;
+    right: .75rem;
+    padding: .4rem;
+    border-radius: 999px;
+    opacity: .7;
+    display: inline-flex;
+}
+
+.sl-dialog-close:hover,
+.sl-dialog-close:focus-visible {
+    opacity: 1;
+    background: rgb(127 127 127 / .2);
+    outline: 2px solid var(--hx-color-primary-500);
+}
+
+.sl-dialog-header {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.sl-dialog-photo {
+    width: 6rem;
+    height: 6rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    flex: 0 0 auto;
+    font-size: 2rem;
+}
+
+.sl-dialog-name {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.sl-dialog-affil {
+    font-size: .85rem;
+    opacity: .7;
+    margin-top: .25rem;
+}
+
+.sl-dialog-bio {
+    line-height: 1.6;
+}
+
+.sl-dialog-bio p+p,
+.sl-dialog-section p+p {
+    margin-top: .75rem;
+}
+
+.sl-dialog-section {
+    margin-top: 1.25rem;
+}
+
+.sl-dialog-section h4 {
+    font-size: .8rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--hx-color-primary-600);
+    margin: 0 0 .4rem;
+}
+
+.dark .sl-dialog-section h4 {
+    color: var(--hx-color-primary-400);
+}
+
+.sl-dialog-section ul {
+    padding-left: 1.2rem;
+    list-style: disc;
+    line-height: 1.55;
+}
+
+.sl-dialog-links {
+    padding: 1.25rem 0 0;
+    margin-top: 1.25rem;
+    border-top: 1px solid rgb(127 127 127 / .25);
+}
+
+.sl-dialog-links a {
+    font-size: .875rem;
+    opacity: .85;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .sl-person {
+        transition: border-color .15s, box-shadow .15s;
+    }
+
+    .sl-person-dialog[open] {
+        animation: sl-pop .18s ease-out;
+    }
+
+    @keyframes sl-pop {
+        from {
+            opacity: 0;
+            transform: translateY(6px) scale(.98);
+        }
+    }
 }
