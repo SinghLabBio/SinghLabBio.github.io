@@ -1,14 +1,16 @@
 ---
-title: publications
+title: Publications
 ---
 
-Coming soon.
+An up-to-date list is usually on Google Scholar and MyNCBI
 
-<!-- Most current list is on [Google Scholar](https://scholar.google.com/citations?user=1IHMXzcAAAAJ). -->
+{{< cards cols="2" >}}
+  {{< card link="https://scholar.google.com/citations?user=1IHMXzcAAAAJ" title="Google Scholar" subtitle="Citation metrics also listed" icon="google-scholar" >}}
+  {{< card link="https://www.ncbi.nlm.nih.gov/myncbi/sukrit.singh.1/bibliography/public/" title="My NCBI Bibliography" subtitle="PubMed-indexed papers" icon="book-open" >}}
+{{< /cards >}}
 
-  {{< card link="https://scholar.google.com/citations?user=1IHMXzcAAAAJ&hl" 
-  title="Check out my publications on Google Scholar"
-  icon="book-open"
-  >}}
+## Publications below are listed by year: Click a title to open the paper in a new tab.
 
-<!-- {{</* publications maxAuthors="8" */>}} -->
+### Authorship symbol legend:
+
+{{< publications open="0" maxAuthors="12" >}}
