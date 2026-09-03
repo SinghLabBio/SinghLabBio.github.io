@@ -1,33 +1,62 @@
-weight: 10
-group: pi
+# ---------------------------------------------------------------------------
+# data/people/<slug>.yaml  --  one file per person.  Filename = URL id
+# (/team/#person-<slug>).  Fields marked CARD show on the tile; DIALOG fields
+# show only in the pop-up; both = both.  Everything except name/group/weight
+# is optional; delete what you don't want shown.
+# ---------------------------------------------------------------------------
+weight: 10                  # sort order within a group (low = first)
+group: pi                   # pi | postdoc | grad | undergrad | staff | alumni
 
-name: Sukrit Singh
+name: Sukrit Singh          # both
+given: Sukrit               # used for the monogram fallback only
 family: Singh
-given: Sukrit
-title: Assistant Professor
-affiliations:
+pronouns: he/him            # both (delete line to hide)
+title: Incoming Assistant Professor  # both
+headline: >-                # CARD -- one line, markdown ok
+  Dynamics, allostery, and drug resistance
+affiliations:               # DIALOG
   - Fox Chase Cancer Center
   - Institute for Cancer Research
+  - Folding@home
 
-# --- Photo -------------------------------------------------------------------
-# Swap the commented block to change which image is used. Paths relative to assets/.
-photo: images/people/sukrit-singh-environment.jpg
-photoRatio: 4x5
-photoAnchor: Center
-# photo: images/people/sukrit-singh-headshot.jpg
-# photoRatio: 1x1
-# photoAnchor: Smart
+photo: images/people/sukrit-singh-environment.jpg   # relative to assets/; omit for monogram
+photoRatio: 4x5             # 1x1 | 4x5 | 3x4  (keep in sync with aspect-ratio in custom.css)
+photoAnchor: Center         # Center | Smart | Top | TopLeft ... (use Center for wide environmental shots)
 
-bio: >
-  Trained at WashU with Greg Bowman and at MSKCC with John Chodera and Markus
-  Seeliger. Works on protein conformational dynamics, allostery, and therapeutic
-  resistance.
+bio: |                      # DIALOG -- markdown, multiple paragraphs ok
+  Trained at WashU with [Gregory R. Bowman](https://bowmanlab.seas.upenn.edu/) and then did postdoctoral training with 
+  [John Chodera](https://choderalab.org) and Markus Seeliger.
 
-links:
-  - {icon: mail,          label: Email,          url: "mailto:sukrit.singh@fccc.edu"}
+  Outside the lab: I enjoy making cocktails, taking my dog on a walk, and playing video/TTRPG games with friends
+
+sections:                   # DIALOG -- any number, any order; each needs heading + body and/or items
+  - heading: Experience
+    items: 
+      - Damon Runyon Quantitative Biology Postdoctoral Fellow @ MSKCC/Stony Brook
+      - NCI Early Stage Pathway to Independence Postdoctoral Fellow @ MSKCC/Stony Brook
+  - heading: Education
+    items:
+      - Ph.D., Computational & Molecular Biophysics — Washington University in St. Louis School of Medicine
+      - B.S., Biology and Chemistry (double major) – Washington University in St. Louis
+  - heading: Research interests
+    # body: >- # use this if you want to have a big paragraph or something
+    items:
+      - Allostery & dynamics
+      - Drug resistance and sensitivity 
+      - Automation and large-scale biophysical experimentation
+      - AI/ML as applied to large scale datasets
+      - Distributed computing and citizen science efforts 
+  - heading: Office
+    body: Placeholder building, room 000
+  - heading: Contact info (click email icon below)
+    body: sukrit.singh [at] choderalab.org 
+
+links:                      # both -- icon names must exist in Hextra's data/icons.yaml or your own data/icons.yaml
+  - {icon: mail,          label: Email,          url: "mailto:sukrit.singh@choderalab.org"}
   - {icon: orcid,         label: ORCID,          url: "https://orcid.org/0000-0003-3532-2083"}
   - {icon: book-open,     label: Google Scholar, url: "https://scholar.google.com/citations?user=1IHMXzcAAAAJ"}
   - {icon: github,        label: GitHub,         url: "https://github.com/sukritsingh"}
   - {icon: bluesky,       label: Bluesky,        url: "https://bsky.app/profile/sukritsingh92.bsky.social"}
   - {icon: linkedin,      label: LinkedIn,       url: "https://www.linkedin.com/in/sukrit-singh-9797587b/"}
-  - {icon: document-text, label: CV,             url: "/team/sukrit-singh/cv/"}
+  # CVs are auto added if you add them to static/team/cv and match the file name of the PDF with the filename of the YAML
+  # - {icon: document-text, label: CV,             url: "/team/cv/sukrit-singh.pdf"} # must match the YAML file-name *exactly*
