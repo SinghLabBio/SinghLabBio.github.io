@@ -52,11 +52,11 @@ sections:                   # DIALOG -- any number, any order; each needs headin
     body: sukrit.singh [at] choderalab.org 
 
 links:                      # both -- icon names must exist in Hextra's data/icons.yaml or your own data/icons.yaml
-  - {icon: mail,          label: Email,          url: "mailto:sukrit.singh@choderalab.org"}
-  - {icon: orcid,         label: ORCID,          url: "https://orcid.org/0000-0003-3532-2083"}
-  - {icon: book-open,     label: Google Scholar, url: "https://scholar.google.com/citations?user=1IHMXzcAAAAJ"}
-  - {icon: github,        label: GitHub,         url: "https://github.com/sukritsingh"}
-  - {icon: bluesky,       label: Bluesky,        url: "https://bsky.app/profile/sukritsingh92.bsky.social"}
-  - {icon: linkedin,      label: LinkedIn,       url: "https://www.linkedin.com/in/sukrit-singh-9797587b/"}
+  - {icon: mail,           label: Email,          url: "mailto:sukrit.singh@choderalab.org"}
+  - {icon: orcid,          label: ORCID,          url: "https://orcid.org/0000-0003-3532-2083"}
+  - {icon: google-scholar, label: Google Scholar, url: "https://scholar.google.com/citations?user=1IHMXzcAAAAJ"}
+  - {icon: github,         label: GitHub,         url: "https://github.com/sukritsingh"}
+  - {icon: bluesky,        label: Bluesky,        url: "https://bsky.app/profile/sukritsingh92.bsky.social"}
+  - {icon: linkedin,       label: LinkedIn,       url: "https://www.linkedin.com/in/sukrit-singh-9797587b/"}
   # CVs are auto added if you add them to static/team/cv and match the file name of the PDF with the filename of the YAML
   # - {icon: document-text, label: CV,             url: "/team/cv/sukrit-singh.pdf"} # must match the YAML file-name *exactly*
