@@ -60,3 +60,10 @@
 .dark .sl-anim-dark {
     display: block;
 }
+
+/* Nav bar text size management */
+.hextra-nav-container { --hx-text-sm: 1.5625rem; }          /* menu links: 17px */
+.hextra-nav-container .hx\:font-extrabold {
+    /* the "Sukrit Singh Lab" wordmark */
+    font-size: 2.25rem;
+}
