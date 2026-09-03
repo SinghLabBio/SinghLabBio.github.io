@@ -1289,76 +1289,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/6833030/items/HWG5NVJ5",
-		"type": "article-journal",
-		"abstract": "Objectives: Glucocorticoids (GCs) are used to improve respiratory mechanics in preterm infants despite clinical evidence linking neonatal GC therapy to cerebellar pathology. In developing mouse cerebellum, the GC dexamethasone (DEX) causes rapid GC-induced neural progenitor cell apoptosis (GINA). Focusing on pharmacological neuroprotection strategies, we investigated whether dexmedetomidine (DMT) protects against GINA. Methods: Neonatal mice were pretreated with DMT prior to DEX challenge. Additionally, we tested clonidine and yohimbine in vivo to determine mechanism of DMT neuroprotection. For in vitro studies, cerebellar neural progenitor cells were pretreated with DMT before DEX challenge. Results: In vivo, DMT attenuated GINA at 1 μg/kg and above, p < 0.0001. Clonidine significantly attenuated GINA, p < 0.0001, while yohimbine reversed DMT neuroprotection, p < 0.0001, suggesting DMT neuroprotection is likely mediated via adrenergic signaling. In vitro, DMT neuroprotection was achieved at 10 μM and above, p < 0.001, indicating DMT rescue is cell autonomous. Conclusions: DMT affords dose-dependent neuroprotection from GINA at clinically relevant doses, an effect that is cell autonomous and likely mediated by α2 adrenergic receptor agonism. DMT co-administration with GCs may be an effective strategy to protect the neonatal brain from GINA while retaining the beneficial effects of GCs on respiratory mechanics.",
-		"container-title": "The Journal of Maternal-Fetal & Neonatal Medicine",
-		"DOI": "10.1080/14767058.2016.1241763",
-		"ISSN": "1476-7058",
-		"issue": "18",
-		"note": "_eprint: https://doi.org/10.1080/14767058.2016.1241763",
-		"page": "2156-2162",
-		"PMID": "27677376",
-		"publisher": "Taylor & Francis",
-		"source": "Taylor and Francis+NEJM",
-		"title": "Dexmedetomidine protects against glucocorticoid induced progenitor cell apoptosis in neonatal mouse cerebellum",
-		"URL": "https://doi.org/10.1080/14767058.2016.1241763",
-		"volume": "30",
-		"author": [
-			{
-				"family": "O’Connor",
-				"given": "Shawn David"
-			},
-			{
-				"family": "",
-				"given": "Cabrera ,Omar Hoseá"
-			},
-			{
-				"family": "",
-				"given": "Dougherty ,Joseph D."
-			},
-			{
-				"family": "",
-				"given": "Singh ,Sukrit"
-			},
-			{
-				"family": "",
-				"given": "Swiney ,Brant Stephen"
-			},
-			{
-				"family": "",
-				"given": "Salinas-Contreras ,Patricia"
-			},
-			{
-				"family": "",
-				"given": "Farber ,Nuri Bradford"
-			},
-			{
-				"family": "Noguchi",
-				"given": "Kevin Kiyoshi",
-				"non-dropping-particle": "and"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2025",
-					4,
-					5
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2017",
-					9,
-					17
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/users/6833030/items/JAN9DIGE",
 		"type": "article-journal",
 		"abstract": "Allosteric (i.e., long-range) communication within proteins is crucial for many biological processes, such as the activation of signaling cascades in response to specific stimuli. However, the physical basis for this communication remains unclear. Existing computational methods for identifying allostery focus on the role of concerted structural changes, but recent experimental work demonstrates that disorder is also an important factor. Here, we introduce the Correlation of All Rotameric and Dynamical States (CARDS) framework for quantifying correlations between both the structure and disorder of different regions of a protein. To quantify disorder, we draw inspiration from methods for quantifying “dynamic heterogeneity” from chemical physics to classify segments of a dihedral’s time evolution as being in either ordered or disordered regimes. To demonstrate the utility of this approach, we apply CARDS to the Catabolite Activator Protein (CAP), a transcriptional activator that is regulated by Cyclic Adenosine MonoPhosphate (cAMP) binding. We find that CARDS captures allosteric communication between the two cAMP-Binding Domains (CBDs). Importantly, CARDS reveals that this coupling is dominated by disorder-mediated correlations, consistent with NMR experiments that establish allosteric coupling between the CBDs occurs without a concerted structural change. CARDS also recapitulates an enhanced role for disorder in the communication between the DNA-Binding Domains (DBDs) and CBDs in the S62F variant of CAP. Finally, we demonstrate that using CARDS to find communication hotspots identifies regions of CAP that are in allosteric communication without foreknowledge of their identities. Therefore, we expect CARDS to be of great utility for both understanding and predicting allostery.",
@@ -2391,6 +2321,74 @@
 					"2024",
 					7,
 					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6833030/items/W84N7X9V",
+		"type": "article-journal",
+		"abstract": "Objectives\nGlucocorticoids (GC) are used to improve respiratory mechanics in preterm infants despite clinical evidence linking neonatal GC therapy to cerebellar pathology. In developing mouse cerebellum, the GC dexamethasone (DEX) causes rapid GC-induced neural progenitor cell apoptosis (GINA). Focusing on pharmacological neuroprotection strategies, we investigated whether dexmedetomidine (DMT) protects against GINA.\n\nMethods\nNeonatal mice were pretreated with DMT prior to DEX challenge. Additionally, we tested clonidine and yohimbine in vivo to determine mechanism of DMT neuroprotection. For in vitro studies, cerebellar neural progenitor cells were pretreated with DMT before DEX challenge.\n\nResults\nIn vivo, DMT attenuated GINA at 1 μg/kg and above, p < 0.0001. Clonidine significantly attenuated GINA, p < 0.0001, while yohimbine reversed DMT neuroprotection, p < 0.0001, suggesting DMT neuroprotection is likely mediated via adrenergic signaling. In vitro, DMT neuroprotection was achieved at 10 μM and above, p < 0.001, indicating DMT rescue is cell autonomous.\n\nConclusions\nDMT affords dose-dependent neuroprotection from GINA at clinically relevant doses, an effect that is cell autonomous and likely mediated by α2 adrenergic receptor agonism. DMT co-administration with GCs may be an effective strategy to protect the neonatal brain from GINA while retaining the beneficial effects of GCs on respiratory mechanics.",
+		"container-title": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+		"DOI": "10.1080/14767058.2016.1241763",
+		"ISSN": "1476-7058",
+		"issue": "18",
+		"journalAbbreviation": "J Matern Fetal Neonatal Med",
+		"page": "2156-2162",
+		"PMID": "27677376",
+		"PMCID": "PMC5500416",
+		"source": "PubMed Central",
+		"title": "Dexmedetomidine Protects Against Glucocorticoid Induced Progenitor Cell Apoptosis in Neonatal Mouse Cerebellum",
+		"URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5500416/",
+		"volume": "30",
+		"author": [
+			{
+				"family": "O’Connor",
+				"given": "Shawn David"
+			},
+			{
+				"family": "Cabrera",
+				"given": "Omar Hoseá"
+			},
+			{
+				"family": "Dougherty",
+				"given": "Joseph D."
+			},
+			{
+				"family": "Singh",
+				"given": "Sukrit"
+			},
+			{
+				"family": "Swiney",
+				"given": "Brant Stephen"
+			},
+			{
+				"family": "Salinas-Contreras",
+				"given": "Patricia"
+			},
+			{
+				"family": "Farber",
+				"given": "Nuri Bradford"
+			},
+			{
+				"family": "Noguchi",
+				"given": "Kevin Kiyoshi"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					9,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					9
 				]
 			]
 		}
