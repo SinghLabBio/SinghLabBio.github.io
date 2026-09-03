@@ -1,0 +1,16 @@
+# ---------------------------------------------------------------------------
+# data/publication_roles.yaml -- author-role symbols used on the Publications
+# page. Edit symbols/labels here; assign roles per paper in
+# data/publications_meta.yaml. Order here = order in the legend.
+# ---------------------------------------------------------------------------
+defaultAuthor: Singh         # `roles: [corresponding]` in the meta file applies to this family name
+roles:
+  - id: corresponding
+    symbol: "*"
+    label: (Co-)Corresponding author
+  - id: co-first
+    symbol: "†"
+    label: Co-first author
+  - id: lead
+    symbol: "‡"
+    label: Computational lead

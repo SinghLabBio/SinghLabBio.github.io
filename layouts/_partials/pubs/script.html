@@ -1,0 +1,15 @@
+{{- /* layouts/_partials/pubs/script.html -- optional, ~15 lines, no dependencies.
+       Adds Expand/Collapse all, and opens the right year when the page is
+       loaded with #pub-YYYY or #doi-... in the URL. Page works fully without it. */ -}}
+<script>
+(function () {
+  if (window.__slPubsInit) return; window.__slPubsInit = true;
+  document.addEventListener('click', function (e) {
+    var root = e.target.closest('[data-sl-pubs]'); if (!root) return;
+    if (e.target.closest('[data-sl-expand]'))   root.querySelectorAll('details.sl-pub-year').forEach(function (d) { d.open = true; });
+    if (e.target.closest('[data-sl-collapse]')) root.querySelectorAll('details.sl-pub-year').forEach(function (d) { d.open = false; });
+  });
+  var h = location.hash && document.getElementById(location.hash.slice(1));
+  if (h) { var y = h.closest('details.sl-pub-year'); if (y) { y.open = true; h.scrollIntoView(); } }
+})();
+</script>

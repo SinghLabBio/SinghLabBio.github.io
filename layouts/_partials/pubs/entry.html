@@ -1,0 +1,129 @@
+{{- /* layouts/_partials/pubs/entry.html -- one <li> per paper.
+       Receives: it (normalised entry), labKeys (slice), maxAuthors (int). */ -}}
+{{- $it   := .it -}}
+{{- $c    := $it.csl -}}
+{{- $meta := $it.meta -}}
+{{- $labKeys := .labKeys -}}
+{{- $max  := .maxAuthors -}}
+{{- $roles := .roles -}}
+
+{{- /* Role marks from meta `roles:` -> map of lower(family) -> symbols string. */ -}}
+{{- $marks := dict -}}
+{{- with $meta.roles -}}
+  {{- $byAuthor := . -}}
+  {{- if reflect.IsSlice . }}{{ $byAuthor = dict $.defaultAuthor . }}{{ end -}}
+  {{- range $fam, $ids := $byAuthor -}}
+    {{- $sym := "" -}}
+    {{- range $r := $roles }}{{ if in $ids $r.id }}{{ $sym = printf "%s%s" $sym $r.symbol }}{{ end }}{{ end -}}
+    {{- $marks = merge $marks (dict (lower $fam) $sym) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Primary link: DOI resolver (stable) > Zotero URL > nothing. */ -}}
+{{- $href := "" -}}
+{{- with $it.doi }}{{ $href = printf "https://doi.org/%s" . }}{{ end -}}
+{{- with $meta.url }}{{ $href = . }}{{ end -}}
+{{- if not $href }}{{ with $c.URL }}{{ $href = . }}{{ end }}{{ end -}}
+
+{{- /* Author list -> "Zimmerman MI" style, lab members wrapped in <span>. */ -}}
+{{- $authors := slice -}}
+{{- range $c.author -}}
+  {{- $label := "" -}}{{- $isLab := false -}}
+  {{- if .literal -}}
+    {{- $label = .literal -}}
+  {{- else -}}
+    {{- $ini := "" -}}
+    {{- range split (replace (.given | default "") "." " ") " " -}}{{- with . }}{{ $ini = printf "%s%s" $ini (substr . 0 1) }}{{ end -}}{{- end -}}
+    {{- $fam := .family -}}
+    {{- with index . "non-dropping-particle" }}{{ $fam = printf "%s %s" . $fam }}{{ end -}}
+    {{- $label = printf "%s %s" $fam $ini | strings.TrimSpace -}}
+    {{- $key := printf "%s|%s" (lower .family) (lower (substr ($ini | default "") 0 1)) -}}
+    {{- if in $labKeys $key }}{{ $isLab = true }}{{ end -}}
+  {{- end -}}
+  {{- $mark := index $marks (lower (.family | default "")) | default "" -}}
+  {{- $authors = $authors | append (dict "label" $label "lab" $isLab "mark" $mark) -}}
+{{- end -}}
+{{- $n := len $authors -}}
+{{- $show := $authors -}}
+{{- $hidden := 0 -}}
+{{- if and (gt $max 0) (gt $n $max) -}}
+  {{- /* keep the first (max-1) authors, any lab members in the middle, and the last author */ -}}
+  {{- $show = slice -}}
+  {{- range $i, $a := $authors -}}
+    {{- if or (lt $i (sub $max 1)) (eq $i (sub $n 1)) $a.lab -}}
+      {{- $show = $show | append $a -}}
+    {{- else -}}
+      {{- $hidden = add $hidden 1 -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Optional figure from meta `image:` (path under assets/, or an http(s) URL).
+       `imagePlacement: abstract` (default) shows it only when the abstract is
+       unfurled; `card` shows it as an always-visible thumbnail on the right. */ -}}
+{{- $fig := "" -}}{{- $thumb := "" -}}
+{{- $placement := $meta.imagePlacement | default "abstract" -}}
+{{- with $meta.image -}}
+  {{- if hasPrefix . "http" -}}
+    {{- $fig = . -}}{{- $thumb = . -}}
+  {{- else -}}
+    {{- with resources.Get . -}}
+      {{- $fig = (.Resize "900x webp q85").RelPermalink -}}
+      {{- $thumb = (.Fill "480x360 Center webp q85").RelPermalink -}}
+    {{- else -}}
+      {{- warnf "publications: image %q for DOI %s not found under assets/" . $it.doi -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $alt := $meta.imageAlt | default (printf "Figure from: %s" $c.title) -}}
+
+{{- $badge := cond $it.isPreprint "Preprint" "" -}}
+<li class="sl-pub{{ if $meta.highlight }} sl-pub-hl{{ end }}{{ if and $thumb (eq $placement "card") }} sl-pub-has-thumb{{ end }}" id="doi-{{ replace $it.doi "/" "-" }}">
+  {{- if and $thumb (eq $placement "card") }}
+  <a class="sl-pub-thumb" href="{{ $href | default "#" }}"{{ if $href }} target="_blank" rel="noopener noreferrer"{{ end }} tabindex="-1">
+    <img src="{{ $thumb }}" alt="{{ $alt }}" loading="lazy" decoding="async" width="480" height="360">
+  </a>
+  {{- end }}
+  <div class="sl-pub-title">
+    {{- if $href -}}
+    <a href="{{ $href }}" target="_blank" rel="noopener noreferrer">{{ $c.title }}</a>
+    {{- else -}}{{ $c.title }}{{- end -}}
+    {{- with $badge }} <span class="sl-pub-badge sl-pub-badge-pre">{{ . }}</span>{{ end -}}
+    {{- with $meta.highlight }} <span class="sl-pub-badge sl-pub-badge-hl">{{ cond (eq (printf "%v" .) "true") "Highlight" . }}</span>{{ end -}}
+  </div>
+  <div class="sl-pub-authors">
+    {{- range $i, $a := $show -}}
+      {{- if gt $i 0 }}, {{ end -}}
+      {{- if and (gt $hidden 0) (eq $i (sub (len $show) 1)) }}&hellip; ({{ $hidden }} more), {{ end -}}
+      {{- if $a.lab }}<span class="sl-pub-lab" title="Singh Lab member">{{ $a.label }}</span>{{ else }}{{ $a.label }}{{ end -}}
+      {{- with $a.mark }}<sup class="sl-pub-role">{{ . }}</sup>{{ end -}}
+    {{- end -}}
+  </div>
+  <div class="sl-pub-venue">
+    {{- with $it.venue }}<em>{{ . }}</em>{{ end -}}
+    {{- with $c.volume }} <span>{{ . }}</span>{{ end -}}
+    {{- with $c.issue }}({{ . }}){{ end -}}
+    {{- with $c.page }}, {{ . }}{{ end -}}
+    {{- with $it.year }} ({{ . }}){{ end -}}
+  </div>
+  <div class="sl-pub-links">
+    {{- with $it.doi }}<a href="https://doi.org/{{ . }}" target="_blank" rel="noopener noreferrer">DOI</a>{{ end -}}
+    {{- with $c.PMID }}<a href="https://pubmed.ncbi.nlm.nih.gov/{{ . }}/" target="_blank" rel="noopener noreferrer">PubMed</a>{{ end -}}
+    {{- with $meta.code }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">Code</a>{{ end -}}
+    {{- with $meta.data }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">Data</a>{{ end -}}
+    {{- with $meta.pdf }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">PDF</a>{{ end -}}
+    {{- with $meta.press }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">Press</a>{{ end -}}
+    {{- with $c.abstract }}
+    <details class="sl-pub-abstract"><summary>Abstract</summary>
+      {{- if and $fig (eq $placement "abstract") }}
+      <figure class="sl-pub-figure">
+        <img src="{{ $fig }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+        {{- with $meta.imageCaption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end -}}
+      </figure>
+      {{- end }}
+      <p>{{ . }}</p>
+    </details>
+    {{- end -}}
+  </div>
+  {{- with $meta.blurb }}<div class="sl-pub-blurb">{{ . | markdownify }}</div>{{ end -}}
+</li>

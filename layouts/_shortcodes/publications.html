@@ -1,0 +1,124 @@
+{{- /*
+  layouts/_shortcodes/publications.html
+  Renders data/publications.json (Zotero CSL-JSON export) as one collapsible
+  <details> block per year, newest first. Optional per-paper overrides live in
+  data/publications_meta.yaml, keyed by DOI. No JavaScript is required; the
+  tiny optional script partial only adds "expand/collapse all" + deep links.
+
+  Usage in content/publications/_index.md:
+    {{< publications >}}                    newest year open, all authors shown
+    {{< publications open="2" >}}           open the two most recent years
+    {{< publications open="all" >}}         everything expanded
+    {{< publications maxAuthors="10" >}}    truncate long author lists
+    {{< publications preprints="hide" >}}   journal articles only
+    {{< publications highlight="false" >}}  turn off lab-member highlighting
+*/ -}}
+{{- $openN       := .Get "open"       | default "1" -}}
+{{- $maxAuthors  := int (.Get "maxAuthors" | default 0) -}}
+{{- $showPre     := ne (.Get "preprints" | default "show") "hide" -}}
+{{- $doHighlight := ne (.Get "highlight" | default "true") "false" -}}
+
+{{- $raw  := hugo.Data.publications | default slice -}}
+{{- $meta := hugo.Data.publications_meta | default dict -}}
+{{- $rolesCfg := hugo.Data.publication_roles | default dict -}}
+{{- $roles := $rolesCfg.roles | default slice -}}
+{{- $defaultAuthor := $rolesCfg.defaultAuthor | default "" -}}
+
+{{- /* ---- 1. Lab-member name keys, built from data/people/*.yaml ----------
+       key = lower(family) + "|" + lower(first letter of given)
+       Extra spellings can be listed per person as `pubAliases:` ("Family, Given"). */ -}}
+{{- $labKeys := slice -}}
+{{- if $doHighlight -}}
+  {{- range $slug, $p := hugo.Data.people -}}
+    {{- with $p.family -}}
+      {{- $g := $p.given | default $p.name -}}
+      {{- $labKeys = $labKeys | append (printf "%s|%s" (lower .) (lower (substr $g 0 1))) -}}
+    {{- end -}}
+    {{- range $p.pubAliases -}}
+      {{- $parts := split . "," -}}
+      {{- $fam := lower (trim (index $parts 0) " ") -}}
+      {{- $giv := cond (gt (len $parts) 1) (lower (substr (trim (index $parts 1) " ") 0 1)) "" -}}
+      {{- $labKeys = $labKeys | append (printf "%s|%s" $fam $giv) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* ---- 2. Normalise every CSL entry into a flat dict ------------------- */ -}}
+{{- $items := slice -}}
+{{- $pubTitles := slice -}}
+{{- range $raw -}}
+  {{- $dp := index (index .issued "date-parts") 0 -}}
+  {{- $y := int (index $dp 0) -}}
+  {{- $m := cond (gt (len $dp) 1) (int (index $dp 1)) 0 -}}
+  {{- $d := cond (gt (len $dp) 2) (int (index $dp 2)) 0 -}}
+  {{- $doi := .DOI | default "" -}}
+  {{- $m2 := index $meta $doi | default dict -}}
+  {{- $venue := $m2.venue | default (index . "container-title") | default .publisher | default "" -}}
+  {{- $isPre := false -}}
+  {{- if or (eq .type "article") (findRE `(?i)rxiv` $venue) -}}{{- $isPre = true -}}{{- end -}}
+  {{- $norm := lower (replaceRE `[^a-z0-9]+` " " (lower .title)) | strings.TrimSpace -}}
+  {{- if not $isPre -}}{{- $pubTitles = $pubTitles | append $norm -}}{{- end -}}
+  {{- $it := dict
+        "year"       $y
+        "sortKey"    (add (mul $y 10000) (add (mul $m 100) $d))
+        "isPreprint" $isPre
+        "normTitle"  $norm
+        "venue"      $venue
+        "doi"        $doi
+        "meta"       $m2
+        "csl"        .
+  -}}
+  {{- $items = $items | append $it -}}
+{{- end -}}
+
+{{- /* ---- 3. Drop preprints that already have a journal version ----------
+       (same normalised title, or meta `supersededBy:` set). Override with
+       meta `keepPreprint: true`. */ -}}
+{{- $keep := slice -}}
+{{- range $items -}}
+  {{- $skip := false -}}
+  {{- if .isPreprint -}}
+    {{- if not $showPre -}}{{- $skip = true -}}{{- end -}}
+    {{- if and (in $pubTitles .normTitle) (not .meta.keepPreprint) -}}{{- $skip = true -}}{{- end -}}
+    {{- if .meta.supersededBy -}}{{- $skip = true -}}{{- end -}}
+  {{- end -}}
+  {{- if .meta.hide -}}{{- $skip = true -}}{{- end -}}
+  {{- if not $skip -}}{{- $keep = $keep | append . -}}{{- end -}}
+{{- end -}}
+{{- $keep = sort $keep "sortKey" "desc" -}}
+
+{{- /* ---- 4. Render, one <details> per year ------------------------------ */ -}}
+{{- $years := slice -}}
+{{- range $keep -}}{{- $years = $years | append .year -}}{{- end -}}
+{{- $years = sort (uniq $years) "value" "desc" -}}
+
+<div class="sl-pubs not-prose" data-sl-pubs>
+  {{- with $roles }}
+  <dl class="sl-pubs-legend" aria-label="Author role symbols">
+    <div><dt><span class="sl-pub-lab">Bold</span></dt><dd>Singh Lab member</dd></div>
+    {{- range . }}<div><dt><sup class="sl-pub-role">{{ .symbol }}</sup></dt><dd>{{ .label }}</dd></div>{{ end }}
+  </dl>
+  {{- end }}
+  <div class="sl-pubs-toolbar">
+    <span class="sl-pubs-count">{{ len $keep }} publications</span>
+    <button type="button" class="sl-pubs-btn" data-sl-expand>Expand all</button>
+    <button type="button" class="sl-pubs-btn" data-sl-collapse>Collapse all</button>
+  </div>
+{{- range $i, $y := $years -}}
+  {{- $inYear := where $keep "year" $y -}}
+  {{- $open := or (eq $openN "all") (lt $i (int $openN)) -}}
+  <details class="sl-pub-year" id="pub-{{ $y }}"{{ if $open }} open{{ end }}>
+    <summary>
+      {{- partial "utils/icon.html" (dict "name" "chevron-right" "attributes" `class="sl-pub-chevron" height="22" width="22" aria-hidden="true"`) -}}
+      <span class="sl-pub-year-label">{{ $y }}</span>
+      <span class="sl-pub-year-count">{{ len $inYear }}</span>
+    </summary>
+    <ol class="sl-pub-list">
+    {{- range $inYear -}}
+      {{- partial "pubs/entry.html" (dict "it" . "labKeys" $labKeys "maxAuthors" $maxAuthors "roles" $roles "defaultAuthor" $defaultAuthor) -}}
+    {{- end -}}
+    </ol>
+  </details>
+{{- end -}}
+</div>
+{{- partial "pubs/script.html" . -}}

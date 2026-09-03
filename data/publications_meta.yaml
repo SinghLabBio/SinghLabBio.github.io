@@ -1,0 +1,97 @@
+# ---------------------------------------------------------------------------
+# data/publications_meta.yaml -- hand-maintained extras, keyed by DOI.
+# publications.json is regenerated from Zotero and should never be edited by
+# hand; anything you want to persist across re-exports goes here instead.
+# Every key is optional. Unknown DOIs are ignored (a typo just does nothing).
+# ---------------------------------------------------------------------------
+# "10.1234/example":
+#   highlight: true          # or a short label, e.g. "Cover article"
+#   code:  https://github.com/SinghLabBio/...
+#   data:  https://zenodo.org/records/...
+#   pdf:   /papers/example.pdf        # drop the file in static/papers/
+#   press: https://...
+#   image: images/pubs/spike.png      # relative to assets/ (or an https:// URL); resized to webp at build
+#   imagePlacement: abstract          # abstract (default: shown when the abstract is unfurled) | card (always-visible thumbnail)
+#   imageAlt: "Cryptic pocket opening in the spike trimer"   # accessibility text; defaults to "Figure from: <title>"
+#   imageCaption: >-                  # optional, markdown ok (abstract placement only)
+#     Spike opening pathway from 0.1 s of Folding@home sampling.
+#   url:   https://...                # override the title link (default: https://doi.org/<DOI>)
+#   venue: "J Matern Fetal Neonatal Med"  # override the journal name shown
+#   blurb: >-                         # one-line plain-language summary, markdown ok
+#     Why this paper matters, in one sentence.
+#   keepPreprint: true                # show a preprint even if a journal version exists
+#   supersededBy: "10.xxxx/yyy"       # force-hide this preprint (when titles differ)
+#   hide: true                        # hide any entry entirely
+#   roles: [corresponding, lead]      # symbols for `defaultAuthor` (data/publication_roles.yaml)
+#   roles:                            # ...or per author, keyed by family name
+#     Singh: [corresponding]
+#     Cuesta: [co-first]
+
+"10.1038/s41557-021-00707-0":
+  highlight: true
+  roles: [lead]
+  code: https://github.com/FoldingAtHome/covid-moonshot
+  blurb: >-
+    Folding@home became the first exascale computer and simulated the SARS-CoV-2
+    proteome and map cryptic pockets.
+
+"10.1101/2025.09.19.677428":
+  # code: https://github.com/choderalab
+  roles:
+    Singh:    [corresponding]
+    Chodera:  [corresponding]
+  image: images/pubs/2025-retro-docking.png #https://acs.silverchair-cdn.com/acs/content_public/journal/jpcbfk/129/11/10.1021_acs.jpcb.4c07794/2/m_jp4c07794_0010.svg?Expires=1791291501&Signature=bO6G-XuBCadi97Pr8TpgDLl05~Ih2Rn-LAOctR0W8vTQeClrlwAyszOhRcwBwcjgRo2v9Oyd5RPgvBCp9z0ASah9PdVidYks-1OGbqaFe09h4gnzQz3NA4OQ4hXBdHstZEN8ijy5DV30XwHEumS5uUestvOHnTu0BNxESo8z3HDffPhsFe3znLTsuWH7N1OkL7EHCkurkZwyDPeXm0QpbIf6SrTIWBSIM2suuyrNUAeNfU0kx-Xa-X3dMrW~JGOVwfw8dGjuEI1BqRsCvBcPHKQYhKab8Fw~48ug593ucFwQugdDYv2NsPacT47T-EkDahy3RSbpC0BVihfkZOQ4Wg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  imagePlacement: abstract
+  
+"10.64898/2026.07.27.741060":
+  roles:
+    Singh: [corresponding]
+    Gunner: [corresponding]
+  image: images/pubs/2026-mcce-kinases.png
+  imagePlacement: abstract
+
+"10.1021/acs.jpcb.4c07794":
+  highlight: true
+  roles: 
+    Singh: [corresponding, co-first]
+    Gapsys: [co-first]
+    Aldeghi: [co-first]
+    Chodera: [corresponding]
+    Seeliger: [corresponding]
+  image: images/pubs/2026-prospective-kinase-nBRET.png #https://acs.silverchair-cdn.com/acs/content_public/journal/jpcbfk/129/11/10.1021_acs.jpcb.4c07794/2/m_jp4c07794_0010.svg?Expires=1791291501&Signature=bO6G-XuBCadi97Pr8TpgDLl05~Ih2Rn-LAOctR0W8vTQeClrlwAyszOhRcwBwcjgRo2v9Oyd5RPgvBCp9z0ASah9PdVidYks-1OGbqaFe09h4gnzQz3NA4OQ4hXBdHstZEN8ijy5DV30XwHEumS5uUestvOHnTu0BNxESo8z3HDffPhsFe3znLTsuWH7N1OkL7EHCkurkZwyDPeXm0QpbIf6SrTIWBSIM2suuyrNUAeNfU0kx-Xa-X3dMrW~JGOVwfw8dGjuEI1BqRsCvBcPHKQYhKab8Fw~48ug593ucFwQugdDYv2NsPacT47T-EkDahy3RSbpC0BVihfkZOQ4Wg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  # imagePlacement: abstract
+
+"10.1080/14767058.2016.1241763":
+  venue: "Journal of Maternal-Fetal & Neonatal Medicine"
+
+"10.1016/j.sbi.2026.103257":
+  roles: 
+    Singh: [corresponding]
+    Chodera: [corresponding]
+  # highlight: true
+  image: images/pubs/2026-current-opinions.png
+
+"10.64898/2026.06.26.734786":
+  highlight: true
+  roles:
+    Singh: [corresponding]
+    Mey:   [corresponding]
+  image: images/pubs/2026-transfer-seeding.gif
+
+"10.1158/2159-8290.CD-25-0647":
+  roles: 
+    Singh: [lead]
+
+"10.26434/chemrxiv-2024-vwpww":
+  roles: 
+    Singh: [corresponding, co-first]
+    Hanson: [corresponding, co-first]
+  
+"10.1021/acs.jctc.3c00333":
+  roles:
+    Singh: [corresponding]
+    Chodera: [corresponding]
+
+"10.1038/s41586-023-05755-9":
+  roles:
+    Singh: [lead]
