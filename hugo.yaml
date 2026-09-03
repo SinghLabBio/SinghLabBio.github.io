@@ -30,7 +30,7 @@ menu:
     - {name: Publications, pageRef: /publications, weight: 3}
     - {name: Software,     pageRef: /software,     weight: 4}
     - {name: News,         pageRef: /news,         weight: 5}
-    - {name: "Join Us",    pageRef: /join,         weight: 6}
+    - {name: "Join",       pageRef: /join,         weight: 6}
     - {name: Contact,      pageRef: /contact,      weight: 7}
     # - name: GitHub
     #   url: "https://github.com/SinghLabBio"
