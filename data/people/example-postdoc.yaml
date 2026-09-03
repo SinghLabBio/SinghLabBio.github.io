@@ -1,9 +1,11 @@
-# weight: 30
-# group: grad
-# name: Future Grad Student!
-# given: Anne
-# family: Example
-# title: Ph.D. students (see the Join page!)
+weight: 100
+group: postdoc
+name: Future Postdoc - could be you!
+given: Fnne
+family: Pxample
+title: Postdoctoral Researchers 
+link: /join/
+linkText: See the Join page!  # optional; default "More"
 # headline: Placeholder showing the no-photo monogram fallback
 # affiliations: [Fox Chase Cancer Center]
 # bio: Placeholder entry. Delete this file when the first real person joins.
