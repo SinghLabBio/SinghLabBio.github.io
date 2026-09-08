@@ -2,7 +2,7 @@
 title: Publications
 ---
 
-An up-to-date list is usually on Google Scholar and MyNCBI
+An up-to-date list is on Google Scholar and MyNCBI
 
 {{< cards cols="2" >}}
   {{< card link="https://scholar.google.com/citations?user=1IHMXzcAAAAJ" title="Google Scholar" subtitle="Citation metrics also listed" icon="google-scholar" >}}
