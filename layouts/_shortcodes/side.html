@@ -1,0 +1,9 @@
+{{- /* {{< side src="..." alt="..." width="40%" pos="right" >}} markdown {{< /side >}} */ -}}
+{{- $pos := .Get "pos" | default "right" -}}
+<div class="sl-side sl-side-{{ $pos }}" style="--sl-side-w: {{ .Get "width" | default "40%" }}">
+  <div class="sl-side-text">{{ .Inner | .Page.RenderString (dict "display" "block") }}</div>
+  <figure class="sl-side-media">
+    <img src="{{ .Get "src" | relURL }}" alt="{{ .Get "alt" }}" loading="lazy">
+    {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+  </figure>
+</div>
