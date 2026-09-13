@@ -45,7 +45,7 @@ menu:
         type: search
 
 params:
-  description: "Biophysical AI for dynamics, allostery, and therapeutic resistance."
+  description: "Systems biophysics for precision oncology"
   navbar:
     displayTitle: true
     displayLogo: true
