@@ -3,13 +3,11 @@ title: News & updates
 description: Latest updates from the Singh Lab
 ---
 
-I know long term these kinds of pages can deprecate, so I'm just going to embed
+I know long term these news pages can deprecate, so I'm just going to embed
 my bluesky feed below. 
-Follow social media for the latest updates in 
-my lab!
+Follow social media for the latest updates in my lab!
 
-Sometimes I will try to blog about various thoughts I have in long-form,
-which will be posted in my blog (linked below)
+Sometimes I will try to blog about various thoughts I have in long-form (linked below)
 
 {{< cards cols="2" >}}
 {{< card link="https://www.linkedin.com/in/sukrit-singh-9797587b/" title="LinkedIn" subtitle="Connect with me on LinkedIn" icon="linkedin" >}}
