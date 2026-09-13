@@ -6,7 +6,12 @@ family: Cuesta
 title: Incoming Postdoctoral Fellow
 headline: Kinase Expression Maestro
 affiliations: [Fox Chase Cancer Center]
-bio: Nico or Sukrit will update this in time
+bio: |
+ Trained in Spain at CNIO Madrid and then was a STARR BRIA fellow with Arvin Dar. 
+ 
+ Nico focuses on kinase expression, binding, and activity. He will be driving our initial wet lab efforts expressing and studying drug-resistance of kinase-variants via experimental tools.
+
+ Outside of the lab: Nico is a huge soccer fan!
 
 photo: images/people/nico-cuesta.jpg   # relative to assets/; omit for monogram
 photoRatio: 4x5             # 1x1 | 4x5 | 3x4  (keep in sync with aspect-ratio in custom.css)
@@ -14,8 +19,15 @@ photoAnchor: Center         # Center | Smart | Top | TopLeft ... (use Center for
 
 sections:
   - heading: Previously
-    items: ["Postdoc, MSKCC"]
+    items: ["STARR BRIA Fellow, MSKCC"]
   - heading: Education
     items: ["Ph.D., Spanish National Research Centre (CNIO), Madrid (Spain)"]
+  - heading: Research interests
+    items:
+      - Kinase signaling and paradoxical activation
+      - Kinase dimerization 
+      - The role of conformational control on kinase dimerization and signaling
+  - heading: Contact info (click email icon below)
+    body: nico.cuesta [at] choderalab.org 
 links:
   - {icon: mail, label: Email, url: "mailto:nico.cuesta@choderalab.org"}
