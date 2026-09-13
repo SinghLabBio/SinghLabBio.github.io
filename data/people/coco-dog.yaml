@@ -1,0 +1,22 @@
+weight: 200
+group: staff
+name: Coco the dog
+given: Coco
+family: the dog
+title: Chief Morale Officer 
+# link: /join/
+# linkText: See the Join page!  # optional; default "More"
+# headline: Placeholder showing the no-photo monogram fallback
+# affiliations: [Fox Chase Cancer Center]
+bio: Coco the dog has been boosting morale and stealing food since 2018.
+
+photo: images/people/coco-dog.jpg   # relative to assets/; omit for monogram
+photoRatio: 4x5             # 1x1 | 4x5 | 3x4  (keep in sync with aspect-ratio in custom.css)
+photoAnchor: Center         # Center | Smart | Top | TopLeft ... (use Center for wide environmental shots)
+
+
+sections:
+  - heading: Previously
+    # items: ["Ph.D., Somewhere University"]
+# links:
+#   - {icon: mail, label: Email, url: "mailto:example@singhlab.bio"}
