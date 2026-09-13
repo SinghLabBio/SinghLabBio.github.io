@@ -2,7 +2,7 @@
 ![reach out to join us!](/images/singhlab_dynamics_lockup_knockout_transparent.gif)
 {width="1200"}
 
-# Our focus: Systems biophysics for precision oncology
+## Our focus: Systems biophysics for precision oncology
 
 We map how clinically occuring variants alter __drug resistance, sensitivity, and selectivity.__
 By understanding how mutations alter dynamics and drug binding, we exploit this knowledge to better predict drug resistance before it arises, and inform the design of future therapeutics!
@@ -15,7 +15,7 @@ We hope to identify new variants that may be clinically relevant for targeting w
 {width="1200"}
 
 
-# Who we are
+## Who we are
 
 We are an interdisciplinary team combining biophysics, statistics, information theory, and molecular biology.
 Our lab combines computational modeling (spanning biophysics to AI/ML approaches) and experimental biochemistry to study protein dynamics, drug binding, and protein-protein interactions.
