@@ -644,3 +644,90 @@
         margin-bottom: .5rem;
     }
 }
+
+/* Add a way for images to actually sit side by side but inserted via markdown */
+.sl-row {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.sl-row img {
+    flex: 1 1 0;
+    min-width: 0;
+    /* lets flex actually shrink the images */
+    width: 50%;
+}
+
+@media (max-width: 640px) {
+    .sl-row {
+        flex-direction: column;
+    }
+
+    .sl-row img {
+        width: 100%;
+    }
+}
+
+.sl-row {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.sl-row img {
+    flex: 1 1 0;
+    min-width: 0;
+    /* lets flex actually shrink the images */
+    width: 50%;
+}
+
+@media (max-width: 640px) {
+    .sl-row {
+        flex-direction: column;
+    }
+
+    .sl-row img {
+        width: 100%;
+    }
+}
+.sl-side {
+    display: grid;
+    grid-template-columns: 1fr var(--sl-side-w);
+    gap: 1.5rem;
+    align-items: center;
+    /* center default or start, if you want tops aligned */
+    margin: 1.5rem 0;
+}
+
+.sl-side-left {
+    grid-template-columns: var(--sl-side-w) 1fr;
+}
+
+.sl-side-left .sl-side-media {
+    order: -1;
+}
+
+.sl-side-media img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.sl-side-media figcaption {
+    font-size: 0.85em;
+    opacity: 0.75;
+    margin-top: 0.4rem;
+}
+
+@media (max-width: 640px) {
+
+    .sl-side,
+    .sl-side-left {
+        grid-template-columns: 1fr;
+    }
+
+    .sl-side-left .sl-side-media {
+        order: 0;
+    }
+}
