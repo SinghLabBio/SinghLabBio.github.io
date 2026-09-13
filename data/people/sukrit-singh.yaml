@@ -8,7 +8,7 @@ weight: 10                  # sort order within a group (low = first)
 group: pi                   # pi | postdoc | grad | undergrad | staff | alumni
 
 name: Sukrit Singh          # both
-given: Sukrit               # used for the monogram fallback only
+given: Sukrit               # used for the monogram fallback
 family: Singh
 pronouns: he/him            # both (delete line to hide)
 title: Incoming Assistant Professor  # both
@@ -16,7 +16,6 @@ headline: >-                # CARD -- one line, markdown ok
   Dynamics, allostery, and drug resistance
 affiliations:               # DIALOG
   - Fox Chase Cancer Center
-  # - Institute for Cancer Research
   - Folding@home
 
 photo: images/people/sukrit-singh-environment.jpg   # relative to assets/; omit for monogram
@@ -32,8 +31,8 @@ bio: |                      # DIALOG -- markdown, multiple paragraphs ok
 sections:                   # DIALOG -- any number, any order; each needs heading + body and/or items
   - heading: Experience
     items: 
-      - 2021-2024 – Damon Runyon Quantitative Biology Postdoctoral Fellow @ MSKCC/Stony Brook
-      - 2024-2026 – NCI Early Stage Pathway to Independence Postdoctoral Fellow @ MSKCC/Stony Brook
+      - Damon Runyon Quantitative Biology Postdoctoral Fellow @ MSKCC/Stony Brook
+      - NCI Early Stage Pathway to Independence Postdoctoral Fellow @ MSKCC/Stony Brook
   - heading: Education
     items:
       - Ph.D., Computational & Molecular Biophysics — Washington University in St. Louis School of Medicine
@@ -47,7 +46,7 @@ sections:                   # DIALOG -- any number, any order; each needs headin
       - AI/ML as applied to large scale datasets
       - Distributed computing and citizen science efforts 
   - heading: Office
-    body: Placeholder building, room 000
+    body: Coming soon!
   - heading: Contact info (click email icon below)
     body: sukrit.singh [at] choderalab.org 
 
