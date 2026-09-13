@@ -1,5 +1,5 @@
 ---
-title: Systems biophysics for precision oncology - mapping mutant effects onto drug efficacy 
+title: Systems biophysics for precision oncology – mapping mutant effects onto drug efficacy 
 ---
 
 ## Clinical variants are too rare for statistical inference alone.<br>Physical priors are needed. 
@@ -17,14 +17,14 @@ By iterating between computational modeling and biophysical/biochemical experime
 
 
 {{< side src="images/website-science/alchemical-mutation.gif" width="40%" caption="Non-equilibrium methods are our go-to" >}}
-We have previously shown that modern alchemical methods are capable of classifying kinase mutations as drug-resistant or sensitizing[1].
+We have previously shown that modern alchemical methods are capable of classifying kinase mutations as drug-resistant or sensitizing ([link](https://doi.org/10.1021/acs.jpcb.4c07794)).
 
-On the methods side, we develop tools and methods to ensure that alchemical transformations are sampled sufficiently to converge to accurate predictions[2].
+On the methods side, we develop tools and methods to ensure that alchemical transformations are sampled sufficiently to converge to accurate predictions ([link](https://doi.org/10.1021/acs.jctc.3c00333)).
 {{< /side >}}
 
 
 {{< side src="images/website-science/mms-summary-image.png" width="40%" pos="left" caption="No kinase inhibitor is perfectly selective!" >}}
-Moving forward, we are also interested in how polypharmacy (the use of multiple inhibitors) can target multiple proteins to overcome resistance. Our previous efforts in this realm led to the development of the multicompound–multitarget scoring (MMS) method[3], an approach to predict combinations of kinase inhibitors that reduce off-target binding while maintaing on-target binding.
+Moving forward, we are also interested in how polypharmacy (the use of multiple inhibitors) can target multiple proteins to overcome resistance. Our previous efforts in this realm led to the development of the multicompound–multitarget scoring (MMS) method ([link](https://doi.org/10.7554/eLife.86189)), an approach to predict combinations of kinase inhibitors that reduce off-target binding while maintaing on-target binding.
 {{< /side >}}
 
 
@@ -36,11 +36,11 @@ To understand how mutations alter conformational populations and rates, we take 
 
 
 {{< side src="images/website-science/2026-transfer-seeding.gif" width="40%" pos="right" caption="No kinase inhibitor is perfectly selective!" >}}
-By transfer-seeding protein mutants, we can construct atlases of protein conformational population shifts and observe how mutants alter thermodynamics and kinetics shift ensembles to create drug-insensitive states (causing resistance)...
+By transfer-seeding protein mutants, we can construct atlases of protein conformational population shifts and observe how mutants alter thermodynamics and kinetics shift ensembles to create drug-insensitive states (causing resistance) ([link](https://doi.org/10.64898/2026.06.26.734786))
 {{< /side >}}
 
 {{< side src="images/website-science/menin-pop-shift.png" width="70%" pos="left" caption="Beyond kinases, we see population shifts in other systems" >}}
-or shifting towards more incompatible drug binding states that retune signaling networks....
+or shifting towards more incompatible drug binding states that retune signaling networks ([link](https://doi.org/10.1038/s41586-023-05755-9))
 {{< /side >}}
 
 
@@ -58,12 +58,10 @@ __We seek to understand and exploit allosteric regulation of binding interfaces 
 {{< side src="images/website-science/gdpRelease_strikingImage_color.png" width="55%" pos="right" caption="Allostery in activation!" >}}
 We draw upon fundamental physical ideas (like dynamical heterogeneity) to construct predictive models of allosteric networks that can be used to modulate protein structure and dynamics.
 
-Our previous efforts led to the Correlation of All Rotameric and Dynamical States (CARDS) which infers allostery both via concerted changes in protein structure and in correlated changes in conformational entropy (dynamic allostery).
-Applications of CARDS enabled us to understand G protein activation, study potentially druggable pockets in ebolavirus VP35, and how a allosteric motions in \(beta)\-lactamase regulates activity [1][2].
+Our previous efforts led to the Correlation of All Rotameric and Dynamical States (CARDS - [link](https://doi.org/10.1021/acs.jctc.6b01181)) which infers allostery both via concerted changes in protein structure and in correlated changes in conformational entropy (dynamic allostery).
+Applications of CARDS enabled us to understand G protein activation ([link](https://doi.org/10.7554/eLife.38465)), study potentially druggable pockets in ebolavirus VP35 ([link](https://doi.org/10.1038/s41467-022-29927-9)), and how a allosteric motions in \(beta)\-lactamase regulates activity ([link](https://doi.org/10.1073/pnas.2106473118)).
 {{< /side >}}
 
-<!-- 
-https://elifesciences.org/articles/38465 -->
 
 
 
@@ -74,14 +72,13 @@ We pair our simulations with experimental validation to study how mutations may 
 
 There are many mutations to map onto mechanistic descriptions. To tackle the data-hungry needs of our models, we approach this problem at scale: 
 
-1. __Modern-day automation tooling to generate datasets and test hypotheses systematically:__ 
+1. __Modern-day automation to generate datasets and test hypotheses:__ 
 
-
-{{< side src="images/website-science/Time Lapse-Src Bos-12494.gif" width="75%" pos="right" caption="Allostery in activation!" >}}
+{{< side src="images/website-science/Time Lapse-Src Bos-12494.gif" width="75%" pos="right" caption="Our robot moving with us from MSKCC!" >}}
 Our lab has a combination of liquid handling robotics, small-volume liquid dispensers, and high-throughput plate readers to generate large-scale datasets for our studies.
 {{< /side >}}
 
 2. __Massively distributed computing architectures to run our simulations at scale:__ Our lab is a member of the [Folding@home](https://foldingathome.org/) distributed computing consortium, where citizen scientists donate their idle computing time to help us study conformational ensembles and many mutations at once using molecular simulation.
 
-3. __Develop methods combining biophysics, computational chemistry, and modern AI/ML tooling:__ Our methods devlopment efforts focus on the need to 1. generate, 2. analyze, and 3. interpret protein conformational ensembles or large-scale experimental datasets. While human-error is always present, we try to use modern statistical inference methods, machine learning, and AI/ML tools to identify principled, unbiased descriptions that enable data-efficient studies of protein variants, conformational populations, and drug binding.
+3. __Develop methods combining biophysics, computational chemistry, and modern AI/ML tooling:__ Our methods devlopment efforts focus on the need to 1. generate, 2. analyze, and 3. interpret protein conformational ensembles or large-scale experimental datasets. While human-error is always present, we try to use modern statistical inference methods, machine learning, and AI/ML tools to identify *principled, unbiased descriptions* that enable data-efficient studies of protein variants, conformational populations, and drug binding.
 
