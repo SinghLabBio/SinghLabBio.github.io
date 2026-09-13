@@ -51,7 +51,7 @@ params:
     displayLogo: true
     width: full
     logo:
-      path: images/lab-logo-only.png   # ribbon glyph only; works in both modes
+      path: images/lab-logo-only-animated.gif   # ribbon glyph only; works in both modes
       link: /
       width: 34
       height: 27

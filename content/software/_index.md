@@ -13,7 +13,6 @@ ____§ below indicates repositories that are no longer being actively maintained
   imageStyle="height: 100px; width: auto; margin: 0.1rem auto 0; object-fit: contain;"
   icon="github"
   icon="github"
-
   >}}
 
   {{< card link="https://www.github.com/sukritsingh/" 
