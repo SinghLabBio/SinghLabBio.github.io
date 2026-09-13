@@ -16,7 +16,7 @@
 {{- with $p.photo -}}
   {{- with resources.Get . -}}
     {{- $anchor := $p.photoAnchor | default "Center" -}}
-    {{- $img = .Fill (printf "%dx%d %s webp q85" $w $h $anchor) -}}
+    {{- $img = (.Filter images.AutoOrient).Fill (printf "%dx%d %s webp q85" $w $h $anchor) -}}
   {{- else -}}
     {{- warnf "team: photo %q for %q not found under assets/ -- using monogram" . $p.slug -}}
   {{- end -}}
