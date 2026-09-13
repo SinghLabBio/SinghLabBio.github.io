@@ -55,6 +55,8 @@ params:
       link: /
       width: 34
       height: 27
+  imageZoom:
+    enable: true
 
   page:
     width: full
