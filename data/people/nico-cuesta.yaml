@@ -1,17 +1,17 @@
 weight: 20
 group: postdoc
-name: Hipólito Nicolás (Nico) Cuesta Hernández
-given: Nico
-family: Cuesta
+name: Nico Cuesta 
+given: Hipólito Nicolás
+family: Cuesta Hernández
 title: Incoming Postdoctoral Fellow
-headline: Kinase Expression Maestro
+headline: Kinase purification Maestro
 affiliations: [Fox Chase Cancer Center]
 bio: |
- Trained in Spain at CNIO Madrid and then was a STARR BRIA fellow with Arvin Dar. 
+ Salamanca public education system! PhD in Biochemistry at CNIO (Madrid, Spain). Old-school biologist learning biophysics and coding.
  
- Nico focuses on kinase expression, binding, and activity. He will be driving our initial wet lab efforts expressing and studying drug-resistance of kinase-variants via experimental tools.
+ Kinase structure, biochemistry and signaling. I will be driving the initial wet lab efforts studying drug-resistance of kinase-variants focused on their biochemistry. Allostery can explain everything.
 
- Outside of the lab: Nico is a huge soccer fan!
+ Outside of the lab: Soccer fan, futsal is even better. Planting, cooking, and economics; in that order. I will eventually declare independence with my own vegetable patch.
 
 photo: images/people/nico-cuesta.jpg   # relative to assets/; omit for monogram
 photoRatio: 4x5             # 1x1 | 4x5 | 3x4  (keep in sync with aspect-ratio in custom.css)
@@ -19,14 +19,16 @@ photoAnchor: Center         # Center | Smart | Top | TopLeft ... (use Center for
 
 sections:
   - heading: Previously
-    items: ["STARR BRIA Fellow, MSKCC"]
+    items: ["BRIA STARR Fellow, MSKCC"]
+    items: ["Predoctoral FPI-Severo Ochoa Grant for assistant scientist, CNIO"]
   - heading: Education
-    items: ["Ph.D., Spanish National Research Centre (CNIO), Madrid (Spain)"]
+    items: ["Ph.D., Molecular Biosciences - Spanish National Research Centre (CNIO), Madrid (Spain)"]
+    items: ["Master’s, Biology and Clinic of Cancer - Salamanca Cancer Research Centre (CIC), Salamanca (Spain)"]
+    items: ["B.S., Biology - University of Salamanca"]
   - heading: Research interests
     items:
-      - Kinase signaling and paradoxical activation
-      - Kinase dimerization 
-      - The role of conformational control on kinase dimerization and signaling
+      - Kinase allosteric signaling and activation
+      - Small GTPases regulation
   - heading: Contact info (click email icon below)
     body: nico.cuesta [at] choderalab.org 
 links:
