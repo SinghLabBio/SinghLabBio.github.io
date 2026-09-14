@@ -2,11 +2,11 @@
 title: 'We are always looking for folks to join our multidisciplinary team!'
 ---
 
+![Singh Lab](/images/singhlab_dynamics_lockup_blue_transparent.gif)
+{width="1200" class="sl-anim-light"}
 
-![reach out to join us!](/images/singhlab_dynamics_lockup_knockout_transparent.gif)
-{width="400"}
-
-
+![Singh Lab](/images/singhlab_dynamics_lockup_knockout_transparent.gif)
+{width="1200" class="sl-anim-dark"}
 
 # I am currently open to applicants at all levels (students, technicians, postdoctoral researchers, software scientists). 
 

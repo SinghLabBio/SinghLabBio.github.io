@@ -51,7 +51,8 @@ params:
     displayLogo: true
     width: full
     logo:
-      path: images/lab-logo-only-animated.gif   # ribbon glyph only; works in both modes
+      path: images/lab-logo-only-animated-blue.gif   # light mode: blue on white
+      dark: images/lab-logo-only-animated.gif        # dark mode: white knockout
       link: /
       width: 34
       height: 27

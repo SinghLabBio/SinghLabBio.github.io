@@ -1,6 +1,10 @@
 # The Singh Lab opens spring 2027 at the Fox Chase Cancer Center
-![reach out to join us!](/images/singhlab_dynamics_lockup_knockout_transparent.gif)
-{width="1200"}
+
+![Singh Lab](/images/singhlab_dynamics_lockup_blue_transparent.gif)
+{width="1200" class="sl-anim-light"}
+
+![Singh Lab](/images/singhlab_dynamics_lockup_knockout_transparent.gif)
+{width="1200" class="sl-anim-dark"}
 
 ## Our focus: Systems biophysics for precision oncology
 
