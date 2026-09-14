@@ -30,9 +30,23 @@ We even take advantage of modern-day automation tools generate our datasets!
 We are lucky to collaborate with many excellent and exciting scientists across both public and private sectors! 
 
 ## Our collaborations include: 
-1. Our lab is a member of the [Folding@home](https://foldingathome.org/) distributed computing consortium
-2. Sukrit is a member of the [OpenFreeEnergy](https://openfree.energy/) Technical Advisory Committee
-3. We regularly engage with the [OpenFold](https://openfold.org/) consortium
+{{< cards cols="4" >}}
+  {{< card link="https://www.foldingathome.org" 
+  title="Our lab is a member of the Folding@home distributed computing consortium"
+  image="images/software/fah-logo.png"
+  imageStyle="height: 200px; width: auto; margin: 0.1rem auto 0; object-fit: contain;" 
+  >}}
+  {{< card link="https://openfree.energy/" 
+  title="Sukrit is a member of the OpenFreeEnergy Technical Advisory Committee"
+  image="images/software/openfe-logo.png"
+  imageStyle="height: 200px; width: auto; margin: 0.1rem auto 0; object-fit: contain;" 
+  >}}
+  {{< card link="https://www.openfold.org/" 
+  title="TWe regularly engage with the Openfold consortium"
+  image="images/software/openfold-logo.png"
+  imageStyle="height: 200px; width: auto; margin: 0.1rem auto 0; object-fit: contain;" 
+  >}}
+{{< /cards >}}
 
 
 ### Check out the [contact](/contact/) page to reach us!
