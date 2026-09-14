@@ -1,5 +1,7 @@
 ---
-title: Team - click a photo card to learn more
+title: Team
 ---
+
+## Click a photo card to learn more!
 
 {{< team >}}
