@@ -1,4 +1,4 @@
-# The Singh Lab opens spring 2027 at the Fox Chase Cancer Center
+# The Singh Lab opens spring 2027 at Fox Chase Cancer Center
 
 ![Singh Lab](/images/singhlab_dynamics_lockup_blue_transparent.gif)
 {width="1200" class="sl-anim-light"}
