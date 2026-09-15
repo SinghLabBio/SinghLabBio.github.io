@@ -101,7 +101,7 @@ ____§ below indicates repositories that are no longer being actively maintained
   icon="github"
   >}}
 
-  {{< card link="OffLeaf " 
+  {{< card link="https://github.com/sukritsingh/offleaf" 
   title="Offline Overleaf-like editor for LaTeX writing - with Text-to-speech!"
   image="images/software/offleaf-logo.png"
   imageStyle="height: 200px; width: auto; margin: 0.1rem auto 0; object-fit: contain;" 
