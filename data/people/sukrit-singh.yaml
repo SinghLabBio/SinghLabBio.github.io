@@ -10,9 +10,9 @@ group: pi                   # pi | postdoc | grad | undergrad | staff | alumni
 name: Sukrit Singh          # both
 given: Sukrit               # used for the monogram fallback
 family: Singh
-pronouns: he/him            # both (delete line to hide)
-title: Incoming Assistant Professor  # both
-headline: >-                # CARD -- one line, markdown ok
+pronouns: he/him            # delete line to hide
+title: Incoming Assistant Professor  #
+headline: >-                # CARD -- markdown ok
   Dynamics, allostery, and drug resistance
 affiliations:               # DIALOG
   - Fox Chase Cancer Center
@@ -26,7 +26,7 @@ bio: |                      # DIALOG -- markdown, multiple paragraphs ok
   Trained at WashU with [Gregory R. Bowman](https://bowmanlab.seas.upenn.edu/) and then did postdoctoral training with 
   [John Chodera](https://choderalab.org) and Markus Seeliger.
 
-  Outside the lab: I enjoy making cocktails, taking my dog on a walk, and playing video/TTRPG games with friends
+  Outside the lab: I enjoy making cocktails, taking my dog on walks, and playing video/TTRPG games with friends.
 
 sections:                   # DIALOG -- any number, any order; each needs heading + body and/or items
   - heading: Experience
