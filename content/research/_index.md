@@ -35,7 +35,7 @@ These ensembles report on key biophysical properties (populations and rates) tha
 To understand how mutations alter conformational populations and rates, we take advantage of modern day structure-based AI/ML approaches to *seed* distributions of conformations and sample the conformational ensemble a protein adopts, an approach we call *__Transfer Seeding__*:
 
 
-{{< side src="images/website-science/2026-transfer-seeding.gif" width="40%" pos="right" caption="No kinase inhibitor is perfectly selective!" >}}
+{{< side src="images/website-science/2026-transfer-seeding.gif" width="40%" pos="right" caption="Transfering additional seeds improves our ensemble generation!" >}}
 By transfer-seeding protein mutants, we can construct atlases of protein conformational population shifts and observe how mutants alter thermodynamics and kinetics shift ensembles to create drug-insensitive states (causing resistance) ([link](https://doi.org/10.64898/2026.06.26.734786))
 {{< /side >}}
 
