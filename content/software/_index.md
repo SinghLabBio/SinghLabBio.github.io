@@ -9,7 +9,7 @@ ____§ below indicates repositories that are no longer being actively maintained
 {{< cards cols="2" >}}
   {{< card link="https://www.github.com/SinghLabBio/" 
   title="Our lab's code is available on github!"
-  image="/images/lab-logo-only-animated.gif"
+  image="/images/lab-logo-only.png"
   imageStyle="height: 100px; width: auto; margin: 0.1rem auto 0; object-fit: contain;"
   icon="github"
   icon="github"
