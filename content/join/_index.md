@@ -15,7 +15,7 @@ __*All interested applicants should email me with  the string "Applicant:" in th
 If you do not include "Applicant:" in the subject line, it may not be caught by my email filters!
 
 Include your CV and a half-page description of a project/question you might want to pursue with us! 
-The proposal is meant to give us a sense of your interests and how you approach problems, and is *not* isn't a binding committment to a project.
+The proposal is meant to give us a sense of your interests and how you approach problems, and is *not* a binding committment to a project.
 
 
 ## What we are looking for:
