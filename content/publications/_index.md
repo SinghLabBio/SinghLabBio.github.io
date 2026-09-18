@@ -9,7 +9,7 @@ An up-to-date list is on Google Scholar and MyNCBI
   {{< card link="https://www.ncbi.nlm.nih.gov/myncbi/sukrit.singh.1/bibliography/public/" title="My NCBI Bibliography" subtitle="PubMed-indexed papers" icon="book-open" >}}
 {{< /cards >}}
 
-## Publications below are listed by year: Click a title to open the paper in a new tab.
+## Click a title to open the paper in a new tab.
 
 ### Authorship symbol legend:
 

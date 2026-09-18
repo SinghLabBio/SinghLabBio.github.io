@@ -32,7 +32,7 @@ All of our projects thrive from open exchange of ideas, and we are lucky to coll
 Our lab is always striving to be inclusive, supportive, and __fun__. 
 Everyone deserves to feel like they’re part of something meaningful. 
 Aim high, encourage independence, celebrate victories, get creative, and make space for laughter and camaraderie. 
-Science is hard enough - we strive to support each other not take ourselves too seriously.
+Science is hard enough - we strive to support each other & not take ourselves too seriously.
 Professional growth is a big part of our journey together, and I am here to support you as best I can (see below)
 
 ## My mentorship philosophy - "Positive-reinforcement driven"
@@ -45,7 +45,3 @@ Part of my role is to help you become your most authentic scientific self.
 If your interests shift, or you decide to take a different direction, we can celebrate your new direction!
 Sometimes the best discoveries happen when you take unexpected turns.
 And if you ever feel like you don’t belong -- know that you absolutely do.
-
-
-
-

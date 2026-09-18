@@ -11,8 +11,8 @@
 We map how clinically occuring variants alter __drug resistance, sensitivity, and selectivity.__
 By understanding how mutations alter dynamics and drug binding, we exploit this knowledge to better predict drug resistance before it arises, and inform the design of future therapeutics!
 
-Our lab focuses on understanding mutations and drug response in cancer to establish a __*systems biophysics*__ view of cancer signaling and drug efficacy.
-By mapping how drug-binding or mutations alter protein function in the context of signaling networks, we characterize driver variants and signaling rewiring across binding interaces.
+Our lab works on a  __*systems biophysics*__ view of cancer signaling by understanding understanding mutations and drug efficacy.
+By mapping how drug-binding or mutations alter protein function in the context of signaling networks, we characterize driver variants and signaling across binding interaces.
 We hope to identify new variants that may be clinically relevant for targeting with modern therapeutic design tools, or newly sensitive targets to existing therapeutic options!
 
 ![](/images/website-graphical-abstract.png)
@@ -42,7 +42,7 @@ We are lucky to collaborate with many excellent and exciting scientists across b
   imageStyle="height: 200px; width: auto; margin: 0.1rem auto 0; object-fit: contain;" 
   >}}
   {{< card link="https://www.openfold.org/" 
-  title="TWe regularly engage with the Openfold consortium"
+  title="We regularly engage with the Openfold consortium"
   image="images/software/openfold-logo.png"
   imageStyle="height: 200px; width: auto; margin: 0.1rem auto 0; object-fit: contain;" 
   >}}
